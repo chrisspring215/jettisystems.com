@@ -1,0 +1,74 @@
+h1
+{
+	font-weight: 700;
+	color: $jetti-orange;
+	font-variant: small-caps;
+}
+
+h2
+{
+	font-weight: 700;
+	color: $jetti-orange;
+	font-variant: small-caps;
+}
+
+h1
+{
+	font-size: 10vw;
+	line-height: 10vw;
+}
+
+h2
+{
+	font-size: 8vw;
+	line-height: 8vw;
+}
+
+
+/* Logo Styles */
+.jetti-logo-main
+{
+	font-family: $jetti-font-logo-main;
+	font-variant: normal;
+	color: $jetti-orange;
+}
+
+.jetti-logo-secondary
+{
+	font-family: $jetti-font-logo-secondary;
+	font-variant: normal;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.home-page-hero-image-small
+{
+	background-color: $jetti-orange;
+	border-bottom: 2px solid $jetti-dark-grey;
+
+	h1
+	{
+		color: $jetti-white;
+	}
+}
+
+.home-page-product-container-small
+{
+
+}
+
+.product-container-right
+{
+	background: url(http://placehold.it/250/#333/#fff);
+	width: 50vw;
+	float: right;
+	height: 63vh;
+}
+
+.product-container-left
+{
+	background-color: blue;
+	width: 50vw;
+	float: left;
+	height: 63vh;
+}
