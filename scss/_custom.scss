@@ -1,3 +1,9 @@
+body
+{
+	height: 100vh;
+	background: linear-gradient($jetti-lightest-grey, $jetti-lightest-grey);
+}
+
 h1
 {
 	font-weight: 700;
@@ -10,6 +16,7 @@ h2
 	font-weight: 700;
 	color: $jetti-orange;
 	font-variant: small-caps;
+	margin-bottom: 0;
 }
 
 h1
@@ -31,6 +38,12 @@ h2
 	font-family: $jetti-font-logo-main;
 	font-variant: normal;
 	color: $jetti-orange;
+	font-size: 6vw;
+}
+
+.name h1 .jetti-logo-main
+{
+	font-size: 6vw;
 }
 
 .jetti-logo-secondary
@@ -39,36 +52,77 @@ h2
 	font-variant: normal;
 	font-weight: 300;
 	font-style: italic;
+	font-size: 4vw;
+}
+
+.home-page-tagline
+{
+	font-family: $jetti-font-main;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 8vw;
+	line-height: 8vw;
+	color: $jetti-white;
 }
 
 .home-page-hero-image-small
 {
 	background-color: $jetti-orange;
-	border-bottom: 2px solid $jetti-dark-grey;
-
-	h1
-	{
-		color: $jetti-white;
-	}
 }
 
 .home-page-product-container-small
 {
+	.row
+	{
+		margin-top: 4vw;
+		margin-bottom: 4vw;
+	}
+
+	.nickname
+	{
+		display: block;
+		font-family: $jetti-font-main;
+		font-weight: 100;
+		color: $jetti-light-grey;
+		font-size: 4vw;
+		line-height: 4vw;
+		margin-top: 5vw;
+	}
+
+	h2
+	{
+		color: $jetti-dark-grey;
+		font-style: italic;
+		font-size: 7vw;
+		font-weight: bold;
+		
+	}
+
+	h2 span
+	{
+		font-family: $jetti-font-logo-main;
+		font-variant: normal;
+		color: $jetti-orange;
+		font-style: normal;
+		font-size: 8vw;
+	}
+
+	.value-add
+	{
+		display: block;
+		font-size: 3.5vw;
+		line-height: 4vw;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		font-weight: 300;
+	}
+
+	.button
+	{
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
 
 }
 
-.product-container-right
-{
-	background: url(http://placehold.it/250/#333/#fff);
-	width: 50vw;
-	float: right;
-	height: 63vh;
-}
 
-.product-container-left
-{
-	background-color: blue;
-	width: 50vw;
-	float: left;
-	height: 63vh;
-}

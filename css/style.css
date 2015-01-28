@@ -1695,7 +1695,7 @@ select {
 button, .button {
   border-style: solid;
   border-width: 0;
-  border: 1vw solid white;
+  border: 2px solid white;
   cursor: pointer;
   font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -1713,20 +1713,20 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   background-color: #ff5400;
-  color: #FFFFFF;
-  transition: font-weight 100ms ease-out, background-color 300ms ease-out, border 300ms ease-out;
+  color: white;
+  font-variant: small-caps;
+  font-weight: bold;
+  transition: background-color 300ms ease-out;
 }
 
-/* line 1168, ../scss/_foundation.scss */
+/* line 1170, ../scss/_foundation.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: white;
-  border: 1vw solid #eb4000;
-  font-weight: bold;
+  background-color: #ff5400;
 }
 
 /* line 1176, ../scss/_foundation.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  color: #ff5400;
+  color: white;
 }
 
 /* line 1178, ../scss/_foundation.scss */
@@ -10378,69 +10378,117 @@ th {
 }
 
 /* line 2, ../scss/_custom.scss */
+body {
+  height: 100vh;
+  background: linear-gradient(#eeeeee, #eeeeee);
+}
+
+/* line 8, ../scss/_custom.scss */
 h1 {
   font-weight: 700;
   color: #ff5400;
   font-variant: small-caps;
 }
 
-/* line 9, ../scss/_custom.scss */
+/* line 15, ../scss/_custom.scss */
 h2 {
   font-weight: 700;
   color: #ff5400;
   font-variant: small-caps;
+  margin-bottom: 0;
 }
 
-/* line 16, ../scss/_custom.scss */
+/* line 23, ../scss/_custom.scss */
 h1 {
   font-size: 10vw;
   line-height: 10vw;
 }
 
-/* line 22, ../scss/_custom.scss */
+/* line 29, ../scss/_custom.scss */
 h2 {
   font-size: 8vw;
   line-height: 8vw;
 }
 
 /* Logo Styles */
-/* line 30, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 .jetti-logo-main {
   font-family: "Sansita One", cursive;
   font-variant: normal;
   color: #ff5400;
+  font-size: 6vw;
 }
 
-/* line 37, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
+.name h1 .jetti-logo-main {
+  font-size: 6vw;
+}
+
+/* line 50, ../scss/_custom.scss */
 .jetti-logo-secondary {
   font-family: "Josefin Sans", sans-serif;
   font-variant: normal;
   font-weight: 300;
   font-style: italic;
+  font-size: 4vw;
 }
 
-/* line 45, ../scss/_custom.scss */
-.home-page-hero-image-small {
-  background-color: #ff5400;
-  border-bottom: 2px solid #333333;
-}
-/* line 50, ../scss/_custom.scss */
-.home-page-hero-image-small h1 {
+/* line 59, ../scss/_custom.scss */
+.home-page-tagline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 8vw;
+  line-height: 8vw;
   color: white;
 }
 
-/* line 61, ../scss/_custom.scss */
-.product-container-right {
-  background: url(http://placehold.it/250/#333/#fff);
-  width: 50vw;
-  float: right;
-  height: 63vh;
+/* line 69, ../scss/_custom.scss */
+.home-page-hero-image-small {
+  background-color: #ff5400;
 }
 
-/* line 69, ../scss/_custom.scss */
-.product-container-left {
-  background-color: blue;
-  width: 50vw;
-  float: left;
-  height: 63vh;
+/* line 76, ../scss/_custom.scss */
+.home-page-product-container-small .row {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+/* line 82, ../scss/_custom.scss */
+.home-page-product-container-small .nickname {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #666666;
+  font-size: 4vw;
+  line-height: 4vw;
+  margin-top: 5vw;
+}
+/* line 93, ../scss/_custom.scss */
+.home-page-product-container-small h2 {
+  color: #333333;
+  font-style: italic;
+  font-size: 7vw;
+  font-weight: bold;
+}
+/* line 102, ../scss/_custom.scss */
+.home-page-product-container-small h2 span {
+  font-family: "Sansita One", cursive;
+  font-variant: normal;
+  color: #ff5400;
+  font-style: normal;
+  font-size: 8vw;
+}
+/* line 111, ../scss/_custom.scss */
+.home-page-product-container-small .value-add {
+  display: block;
+  font-size: 3.5vw;
+  line-height: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-weight: 300;
+}
+/* line 121, ../scss/_custom.scss */
+.home-page-product-container-small .button {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }

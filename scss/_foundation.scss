@@ -1144,7 +1144,7 @@ select {
 button, .button {
   border-style: solid;
   border-width: 0;
-  border: 1vw solid $jetti-white;
+  border: 2px solid $jetti-white;
   cursor: pointer;
   font-family: $jetti-font-main, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -1162,19 +1162,19 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   background-color: $jetti-orange;
-  color: #FFFFFF;
-  transition: font-weight 100ms ease-out, background-color 300ms ease-out, border 300ms ease-out; }
+  color: $jetti-white;
+  font-variant: small-caps;
+  font-weight: bold;
+  transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus
   {
-    background-color: $jetti-white; 
-    border: 1vw solid $jetti-orange - 20;
-    font-weight: bold;
+    background-color: $jetti-orange;
   }
 
 
 
   button:hover, button:focus, .button:hover, .button:focus {
-    color: $jetti-orange; }
+    color: $jetti-white; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
