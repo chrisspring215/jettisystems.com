@@ -3597,7 +3597,9 @@ p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility; }
+  /* Chris
+  text-rendering: optimizeLegibility;
+  */ }
   p.lead {
     font-size: 1.21875rem;
     line-height: 1.6; }
@@ -3612,7 +3614,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
   color: #222222;
+  /* Chris
   text-rendering: optimizeLegibility;
+  */
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }

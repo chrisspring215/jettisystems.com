@@ -16,6 +16,7 @@ h2
 	font-weight: 700;
 	color: $jetti-orange;
 	font-variant: small-caps;
+
 	margin-bottom: 0;
 }
 
@@ -38,12 +39,12 @@ h2
 	font-family: $jetti-font-logo-main;
 	font-variant: normal;
 	color: $jetti-orange;
-	font-size: 6vw;
+	
 }
 
 .name h1 .jetti-logo-main
 {
-	font-size: 6vw;
+	font-size: 1.25em;
 }
 
 .jetti-logo-secondary
@@ -52,7 +53,8 @@ h2
 	font-variant: normal;
 	font-weight: 300;
 	font-style: italic;
-	font-size: 4vw;
+
+	font-size: 1em;
 }
 
 .home-page-tagline
@@ -60,9 +62,10 @@ h2
 	font-family: $jetti-font-main;
 	font-weight: 800;
 	font-style: italic;
+	color: $jetti-white;
+
 	font-size: 8vw;
 	line-height: 8vw;
-	color: $jetti-white;
 }
 
 .home-page-hero-image-small
@@ -84,6 +87,7 @@ h2
 		font-family: $jetti-font-main;
 		font-weight: 100;
 		color: $jetti-light-grey;
+
 		font-size: 4vw;
 		line-height: 4vw;
 		margin-top: 5vw;
@@ -91,10 +95,13 @@ h2
 
 	h2
 	{
+		font-family: $jetti-font-main;
 		color: $jetti-dark-grey;
 		font-style: italic;
-		font-size: 7vw;
 		font-weight: bold;
+
+		font-size: 5vw;
+		
 		
 	}
 
@@ -104,25 +111,47 @@ h2
 		font-variant: normal;
 		color: $jetti-orange;
 		font-style: normal;
-		font-size: 8vw;
+
+		font-size: 7vw;
 	}
 
 	.value-add
 	{
 		display: block;
+		font-weight: 300;
+
 		font-size: 3.5vw;
 		line-height: 4vw;
-		margin-top: 1vw;
-		margin-bottom: 1vw;
-		font-weight: 300;
+		margin-top: .5vw;
+		margin-bottom: 1.5vw;
 	}
 
 	.button
 	{
 		padding-top: 2vw;
 		padding-bottom: 2vw;
+		font-size: 4vw;
+	}
+
+	.hr-row
+	{
+		margin:0;
+		height: 1px;
+
+		.hr-columns
+		{
+			margin: 0;
+		}
+	}
+	hr
+	{
+		margin: 1vw 0 6vw 0;
 	}
 
 }
 
+footer
+{
+	background-color: $jetti-dark-grey;
+}
 
