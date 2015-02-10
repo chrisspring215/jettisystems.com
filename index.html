@@ -3,28 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CliqueUp Style Guide</title>
+    <title>Jetti | Restaurant Loyalty Programs</title>
+
+    <!-- Add description Meta -->
+
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/vendor/modernizr.js"></script>
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic' rel='stylesheet' type='text/css'>
+      <!-- Logo Font -->
+      <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+      <!-- Other -->
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+    <!-- End Google Fonts -->
+
+    <!-- SMOOTH SCROLL -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+      </script>
+      <!-- End of SMOOTH SCROLL -->
+
   </head>
   <body>
-    <div class="fixed contain-to-grid">
+    <!--
+    <header class="fixed contain-to-grid">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <h1><a href="#"><span class="jetti-logo-main">Jetti</span> <span class="jetti-logo-secondary">Systems</span></a></h1>
+            <span><a class="jetti-logo-main" href="#">Jetti</a></span>
           </li>
-           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
         <section class="top-bar-section">
-          <!-- Right Nav Section -->
+
           <ul class="right">
             <li class="active"><a href="#">Right Button Active</a></li>
             <li class="has-dropdown">
@@ -35,51 +60,50 @@
               </ul>
             </li>
           </ul>
-          <!-- Left Nav Section -->
+
           <ul class="left">
             <li><a href="#">Left Nav Button</a></li>
           </ul>
         </section>
       </nav> 
-    </div>
-    <div class="home-page-hero-image-small">
+    </header>
+     -->
+
+    <div class="full-page-header">
       <div class="row">
-        <div class="small-12 columns">
-          <div>
-            <h1 class="text-center home-page-tagline">Merchants, meet your new hardest working employees.</h1>
-          </div>   
-        </div>
-      </div>
-    </div>
-    <div class="home-page-product-container-small">
-      <div class="row">
-        <div class="small-5 columns">
-          <img class="" src="img/jetti-digital-menu-screenshot.png">
-        </div>
-        <div class="small-7 columns product-text">
-          <span class="nickname text-left">"The Upseller"</span>
-          <h2 class="text-left"><span>Jetti</span> Digital Menus</h2>
-          <span class="value-add text-left">Boost your in-house sales with this easy to manage system</span>
-          <a class="button expand">Take a Tour</a>
-        </div>
-      </div>
-      <div class="row hr-row">
-        <div class="small-12 columns hr-columns">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-7 columns product-text">
-          <span class="nickname text-right">"The Bullhorn"</span>
-          <h2 class="text-right"><span>Jetti</span> Connect</h2>
-          <span class="value-add text-right">Generate new customers with Patron-Shared Coupons</span>
-          <a class="button expand">Take a Tour</a>
-        </div>
-        <div class="small-5 columns">
-          <img class="" src="img/jetti-digital-menu-screenshot.png">
+        <div class="small-12 columns text-center">
+          <span class=" small-main-logo">Jetti</span>
+          <br>
+          <span class="tag-line">Reward your customers for buying<br>your higher profit items.</span>
+          <br>
+          <span class="advance">LEARN HOW</span>
+          <br>
+          <a href="#secondPage">
+          <svg width="50" height="50">
+            <polygon points="0,0 50,0 25,40" style="fill:white;" />
+          </svg></a>
         </div>
       </div>
     </div>
+
+    <main>
+      <div name="secondPage" class="secondpage">&nbsp;
+        <div class="pages">
+          <div class="row">
+            <div class="small-12 small-centered text-center columns">         
+              <h2>The smartest way to do build loyalty.</h2>
+            </div>
+            <div class="small-10 small-centered text-center columns">  
+              <p>Jetti</p>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
     <footer>
       <div class="row">
         <div class="small-12 columns">

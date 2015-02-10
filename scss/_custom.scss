@@ -4,154 +4,107 @@ body
 	background: linear-gradient($jetti-lightest-grey, $jetti-lightest-grey);
 }
 
-h1
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, span
 {
-	font-weight: 700;
-	color: $jetti-orange;
-	font-variant: small-caps;
+	font-family: $jetti-font-other;
 }
 
-h2
+/*
+header.contain-to-grid
 {
-	font-weight: 700;
-	color: $jetti-orange;
-	font-variant: small-caps;
-
-	margin-bottom: 0;
-}
-
-h1
-{
-	font-size: 10vw;
-	line-height: 10vw;
-}
-
-h2
-{
-	font-size: 8vw;
-	line-height: 8vw;
-}
+	background: $jetti-orange;
 
 
-/* Logo Styles */
-.jetti-logo-main
-{
-	font-family: $jetti-font-logo-main;
-	font-variant: normal;
-	color: $jetti-orange;
-	
-}
-
-.name h1 .jetti-logo-main
-{
-	font-size: 1.25em;
-}
-
-.jetti-logo-secondary
-{
-	font-family: $jetti-font-logo-secondary;
-	font-variant: normal;
-	font-weight: 300;
-	font-style: italic;
-
-	font-size: 1em;
-}
-
-.home-page-tagline
-{
-	font-family: $jetti-font-main;
-	font-weight: 800;
-	font-style: italic;
-	color: $jetti-white;
-
-	font-size: 8vw;
-	line-height: 8vw;
-}
-
-.home-page-hero-image-small
-{
-	background-color: $jetti-orange;
-}
-
-.home-page-product-container-small
-{
-	.row
+	.top-bar
 	{
-		margin-top: 4vw;
-		margin-bottom: 4vw;
+		background-color: $jetti-orange;
 	}
 
-	.nickname
+	.top-bar-section li
 	{
-		display: block;
-		font-family: $jetti-font-main;
-		font-weight: 100;
-		color: $jetti-light-grey;
+		background: $jetti-orange;
 
-		font-size: 4vw;
-		line-height: 4vw;
-		margin-top: 5vw;
-	}
-
-	h2
-	{
-		font-family: $jetti-font-main;
-		color: $jetti-dark-grey;
-		font-style: italic;
-		font-weight: bold;
-
-		font-size: 5vw;
-		
-		
-	}
-
-	h2 span
-	{
-		font-family: $jetti-font-logo-main;
-		font-variant: normal;
-		color: $jetti-orange;
-		font-style: normal;
-
-		font-size: 7vw;
-	}
-
-	.value-add
-	{
-		display: block;
-		font-weight: 300;
-
-		font-size: 3.5vw;
-		line-height: 4vw;
-		margin-top: .5vw;
-		margin-bottom: 1.5vw;
-	}
-
-	.button
-	{
-		padding-top: 2vw;
-		padding-bottom: 2vw;
-		font-size: 4vw;
-	}
-
-	.hr-row
-	{
-		margin:0;
-		height: 1px;
-
-		.hr-columns
+		&:hover
 		{
-			margin: 0;
+			background: $jetti-orange-darker;
 		}
 	}
-	hr
+
+	.jetti-logo-main
 	{
-		margin: 1vw 0 6vw 0;
+		font-family: $jetti-font-main;
+	}
+}
+*/
+
+.full-page-header
+{
+	background-color: $jetti-orange;
+	height: 100vh;
+	padding-top: 25vh;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 25vw;
+		line-height: 28vw;
+		color: $jetti-white;
+		margin: 0;
+		padding: 0;
 	}
 
+	.tag-line
+	{
+		font-weight: 300;
+		color: $jetti-white;
+	}
+
+	.advance
+	{
+		display: block;
+		margin-top: 12vh;
+		color: $jetti-white;
+	}
+}
+
+main
+{
+	.hero-banner
+	{
+		background-color: $jetti-orange-darker;
+
+		h1
+		{
+			color: $jetti-white;
+			font-size: 7vw;
+			line-height: 8vw;
+			font-weight: 700;
+			font-style: italic;
+		}
+	}
+
+	.pages
+	{
+		height: 96vh;
+		padding: 0;
+
+		h2
+		{
+			font-size: 7vw;
+			line-height: 7vw;
+			font-weight: 700;
+		}
+
+		ul
+		{
+			font-size: 4vw;
+		}
+	}
+
+	
 }
 
 footer
 {
-	background-color: $jetti-dark-grey;
+	background-color: pink;
 }
-

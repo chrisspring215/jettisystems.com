@@ -88,7 +88,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1697,7 +1697,7 @@ button, .button {
   border-width: 0;
   border: 2px solid white;
   cursor: pointer;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1712,7 +1712,7 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #ff5400;
+  background-color: #ff5722;
   color: white;
   font-variant: small-caps;
   font-weight: bold;
@@ -1721,7 +1721,7 @@ button, .button {
 
 /* line 1170, ../scss/_foundation.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #ff5400;
+  background-color: #ff5722;
 }
 
 /* line 1176, ../scss/_foundation.scss */
@@ -2367,7 +2367,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -2772,7 +2772,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -4567,7 +4567,7 @@ meta.foundation-mq-topbar {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 2829, ../scss/_foundation.scss */
@@ -4578,7 +4578,7 @@ meta.foundation-mq-topbar {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 2837, ../scss/_foundation.scss */
@@ -5335,7 +5335,7 @@ meta.foundation-mq-topbar {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -5528,7 +5528,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 3372, ../scss/_foundation.scss */
@@ -5556,7 +5556,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 3388, ../scss/_foundation.scss */
@@ -5609,7 +5609,7 @@ ul.pagination li {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -5932,7 +5932,7 @@ p aside {
 /* Default header styles */
 /* line 3612, ../scss/_foundation.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans Condensed", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -7171,7 +7171,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -7428,7 +7428,7 @@ dialog[open] {
 /* line 4574, ../scss/_foundation.scss */
 .label {
   font-weight: normal;
-  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -10388,130 +10388,93 @@ body {
 }
 
 /* line 8, ../scss/_custom.scss */
-h1 {
-  font-weight: 700;
-  color: #ff5400;
-  font-variant: small-caps;
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, span {
+  font-family: "Roboto", sans-serif;
 }
 
-/* line 15, ../scss/_custom.scss */
-h2 {
-  font-weight: 700;
-  color: #ff5400;
-  font-variant: small-caps;
-  margin-bottom: 0;
-}
+/*
+header.contain-to-grid
+{
+	background: $jetti-orange;
 
-/* line 24, ../scss/_custom.scss */
-h1 {
-  font-size: 10vw;
-  line-height: 10vw;
-}
 
-/* line 30, ../scss/_custom.scss */
-h2 {
-  font-size: 8vw;
-  line-height: 8vw;
-}
+	.top-bar
+	{
+		background-color: $jetti-orange;
+	}
 
-/* Logo Styles */
-/* line 38, ../scss/_custom.scss */
-.jetti-logo-main {
+	.top-bar-section li
+	{
+		background: $jetti-orange;
+
+		&:hover
+		{
+			background: $jetti-orange-darker;
+		}
+	}
+
+	.jetti-logo-main
+	{
+		font-family: $jetti-font-main;
+	}
+}
+*/
+/* line 41, ../scss/_custom.scss */
+.full-page-header {
+  background-color: #ff5722;
+  height: 100vh;
+  padding-top: 25vh;
+}
+/* line 47, ../scss/_custom.scss */
+.full-page-header .small-main-logo {
   font-family: "Sansita One", cursive;
-  font-variant: normal;
-  color: #ff5400;
-}
-
-/* line 46, ../scss/_custom.scss */
-.name h1 .jetti-logo-main {
-  font-size: 1.25em;
-}
-
-/* line 51, ../scss/_custom.scss */
-.jetti-logo-secondary {
-  font-family: "Josefin Sans", sans-serif;
-  font-variant: normal;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 1em;
-}
-
-/* line 61, ../scss/_custom.scss */
-.home-page-tagline {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  font-style: italic;
+  font-size: 25vw;
+  line-height: 28vw;
   color: white;
-  font-size: 8vw;
-  line-height: 8vw;
+  margin: 0;
+  padding: 0;
 }
-
-/* line 72, ../scss/_custom.scss */
-.home-page-hero-image-small {
-  background-color: #ff5400;
-}
-
-/* line 79, ../scss/_custom.scss */
-.home-page-product-container-small .row {
-  margin-top: 4vw;
-  margin-bottom: 4vw;
-}
-/* line 85, ../scss/_custom.scss */
-.home-page-product-container-small .nickname {
-  display: block;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  color: #666666;
-  font-size: 4vw;
-  line-height: 4vw;
-  margin-top: 5vw;
-}
-/* line 97, ../scss/_custom.scss */
-.home-page-product-container-small h2 {
-  font-family: "Open Sans", sans-serif;
-  color: #333333;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 5vw;
-}
-/* line 109, ../scss/_custom.scss */
-.home-page-product-container-small h2 span {
-  font-family: "Sansita One", cursive;
-  font-variant: normal;
-  color: #ff5400;
-  font-style: normal;
-  font-size: 7vw;
-}
-/* line 119, ../scss/_custom.scss */
-.home-page-product-container-small .value-add {
-  display: block;
+/* line 57, ../scss/_custom.scss */
+.full-page-header .tag-line {
   font-weight: 300;
-  font-size: 3.5vw;
-  line-height: 4vw;
-  margin-top: .5vw;
-  margin-bottom: 1.5vw;
+  color: white;
 }
-/* line 130, ../scss/_custom.scss */
-.home-page-product-container-small .button {
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  font-size: 4vw;
-}
-/* line 137, ../scss/_custom.scss */
-.home-page-product-container-small .hr-row {
-  margin: 0;
-  height: 1px;
-}
-/* line 142, ../scss/_custom.scss */
-.home-page-product-container-small .hr-row .hr-columns {
-  margin: 0;
-}
-/* line 147, ../scss/_custom.scss */
-.home-page-product-container-small hr {
-  margin: 1vw 0 6vw 0;
+/* line 63, ../scss/_custom.scss */
+.full-page-header .advance {
+  display: block;
+  margin-top: 12vh;
+  color: white;
 }
 
-/* line 154, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
+main .hero-banner {
+  background-color: #e64a19;
+}
+/* line 77, ../scss/_custom.scss */
+main .hero-banner h1 {
+  color: white;
+  font-size: 7vw;
+  line-height: 8vw;
+  font-weight: 700;
+  font-style: italic;
+}
+/* line 87, ../scss/_custom.scss */
+main .pages {
+  height: 96vh;
+  padding: 0;
+}
+/* line 92, ../scss/_custom.scss */
+main .pages h2 {
+  font-size: 7vw;
+  line-height: 7vw;
+  font-weight: 700;
+}
+/* line 99, ../scss/_custom.scss */
+main .pages ul {
+  font-size: 4vw;
+}
+
+/* line 108, ../scss/_custom.scss */
 footer {
-  background-color: #333333;
+  background-color: pink;
 }
