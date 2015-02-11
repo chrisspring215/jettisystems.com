@@ -10419,62 +10419,136 @@ header.contain-to-grid
 	}
 }
 */
-/* line 41, ../scss/_custom.scss */
+/* SVG */
+/* line 43, ../scss/_custom.scss */
+svg {
+  transition: padding-top 0.25s ease;
+  padding-top: 0em;
+}
+/* line 48, ../scss/_custom.scss */
+svg .polygon-1 {
+  fill: #ffffd1;
+}
+/* line 52, ../scss/_custom.scss */
+svg .polygon-2 {
+  fill: #e63e09;
+}
+/* line 56, ../scss/_custom.scss */
+svg .polygon-3 {
+  fill: #d22a00;
+}
+/* line 61, ../scss/_custom.scss */
+svg:hover {
+  transition: padding-top 0.5s ease;
+  padding-top: .2em;
+}
+
+/* line 70, ../scss/_custom.scss */
 .full-page-header {
   background-color: #ff5722;
   height: 100vh;
-  padding-top: 25vh;
+  padding-top: 20vh;
 }
-/* line 47, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .full-page-header .small-main-logo {
   font-family: "Sansita One", cursive;
-  font-size: 25vw;
-  line-height: 28vw;
+  font-size: 35vw;
+  line-height: 37vw;
   color: white;
   margin: 0;
   padding: 0;
 }
-/* line 57, ../scss/_custom.scss */
+/* line 86, ../scss/_custom.scss */
 .full-page-header .tag-line {
-  font-weight: 300;
+  font-weight: 400;
   color: white;
-}
-/* line 63, ../scss/_custom.scss */
-.full-page-header .advance {
+  text-transform: uppercase;
+  font-size: 5vw;
+  line-height: 7vw;
+  padding-top: 3vh;
   display: block;
-  margin-top: 12vh;
+}
+/* line 98, ../scss/_custom.scss */
+.full-page-header .advance {
+  font-size: 5vw;
+  line-height: 7vw;
+  display: block;
+  margin-top: 7vh;
+  margin-bottom: 3vh;
   color: white;
 }
 
-/* line 73, ../scss/_custom.scss */
-main .hero-banner {
-  background-color: #e64a19;
+/* line 111, ../scss/_custom.scss */
+main {
+  /* Background Images */
 }
-/* line 77, ../scss/_custom.scss */
-main .hero-banner h1 {
-  color: white;
-  font-size: 7vw;
-  line-height: 8vw;
-  font-weight: 700;
-  font-style: italic;
+/* line 114, ../scss/_custom.scss */
+main .advance-arrow {
+  display: inline-block;
+  border: 3px solid #ff5722;
+  padding: 1em .5em 0 .5em;
+  border-radius: 2em;
+  background-color: #333;
 }
-/* line 87, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 main .pages {
   height: 96vh;
   padding: 0;
 }
-/* line 92, ../scss/_custom.scss */
-main .pages h2 {
+/* line 128, ../scss/_custom.scss */
+main .pages h1 {
   font-size: 7vw;
-  line-height: 7vw;
+  line-height: 8vw;
   font-weight: 700;
+  color: #ff5722;
+  font-style: italic;
+  background-color: rgba(51, 51, 51, 0.9);
+  display: inline-block;
+  padding: 3vw 4vw;
 }
-/* line 99, ../scss/_custom.scss */
-main .pages ul {
-  font-size: 4vw;
+/* line 140, ../scss/_custom.scss */
+main .pages h1 .reason {
+  font-weight: 700;
+  color: white;
+  font-size: 5vw;
+}
+/* line 149, ../scss/_custom.scss */
+main .pages p {
+  font-size: 5vw;
+  line-height: 6.5vw;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.9);
+  display: inline-block;
+  padding: 3vw 4vw;
+  font-style: italic;
+}
+/* line 163, ../scss/_custom.scss */
+main .pages p strong {
+  font-style: italic;
+  color: #ff5722;
+  font-weight: 900;
+}
+/* line 173, ../scss/_custom.scss */
+main .pages .accent {
+  font-weight: 900;
+  font-style: italic;
+  color: #ff5722;
+}
+/* line 182, ../scss/_custom.scss */
+main .secondpage {
+  background: url(../img/restaurant-background-blur.png) no-repeat center center fixed;
+  /*
+  background-color: $jetti-orange;
+  background-blend-mode: screen;
+  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 108, ../scss/_custom.scss */
+/* line 196, ../scss/_custom.scss */
 footer {
   background-color: pink;
 }
