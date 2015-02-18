@@ -10514,14 +10514,13 @@ main .pages h1 .reason {
 }
 /* line 149, ../scss/_custom.scss */
 main .pages p {
-  font-size: 5vw;
-  line-height: 6.5vw;
+  font-size: 6vw;
+  line-height: 7vw;
   font-weight: 500;
   color: white;
   background-color: rgba(51, 51, 51, 0.9);
   display: inline-block;
   padding: 3vw 4vw;
-  font-style: italic;
 }
 /* line 163, ../scss/_custom.scss */
 main .pages p strong {
@@ -10529,13 +10528,20 @@ main .pages p strong {
   color: #ff5722;
   font-weight: 900;
 }
-/* line 173, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
+main .pages .intro-prop {
+  color: white;
+  font-weight: 400;
+  padding-bottom: .25em;
+  display: inline-block;
+}
+/* line 176, ../scss/_custom.scss */
 main .pages .accent {
   font-weight: 900;
   font-style: italic;
   color: #ff5722;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 main .secondpage {
   background: url(../img/restaurant-background-blur.png) no-repeat center center fixed;
   /*
@@ -10548,7 +10554,7 @@ main .secondpage {
   background-size: cover;
 }
 
-/* line 196, ../scss/_custom.scss */
+/* line 199, ../scss/_custom.scss */
 footer {
   background-color: pink;
 }
