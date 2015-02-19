@@ -70,7 +70,7 @@ svg
 {
 	background-color: $jetti-orange;
 	height: 100vh;
-	padding-top: 20vh;
+	padding-top: 10vh;
 
 	.small-main-logo
 	{
@@ -135,10 +135,11 @@ main
 
 		h2
 		{
-			font-size: 5vw;
-			line-height: 5.5vw;
-			font-weight: 500;
+			font-size: 7vw;
+			line-height: 9vw;
+			font-weight: 300;
 			font-style: italic;
+			color: $jetti-font-other;
 		}
 
 		p
