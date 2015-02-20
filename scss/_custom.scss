@@ -1,3 +1,14 @@
+
+$jetti-orange: #FF5722;
+$jetti-orange-darker: #E64A19;
+
+$jetti-white: #fff;
+$jetti-black: #222;
+$jetti-dark-grey: #333;
+$jetti-light-grey: #666;
+$jetti-lighter-grey: #ccc;
+$jetti-lightest-grey: #eee;
+
 body
 {
 	height: 100vh;
@@ -37,6 +48,17 @@ header.contain-to-grid
 }
 */
 
+/* buttons */
+button
+{
+	border-radius: .3em;
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 4vw;
+	border: .65vw solid $jetti-white;
+}
+
 /* SVG */
 
 svg
@@ -68,31 +90,60 @@ svg
 
 .full-page-header
 {
-	background-color: $jetti-orange;
+	background: url(../img/background1.png) no-repeat center center fixed; 
+	background-color: $jetti-orange - 50;
+	/*
+	background-blend-mode: soft-light;
+	*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+
 	height: 100vh;
-	padding-top: 10vh;
+	padding-top: 15vh;
 
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
 		font-size: 35vw;
 		line-height: 37vw;
-		color: $jetti-white;
+		color: $jetti-orange;
 		margin: 0;
 		padding: 0;
+		text-shadow: 2px 2px 0 $jetti-white,
+
+		-1px -1px 0 #fff,  
+	    1px -1px 0 #fff,
+	   -1px  1px 0 #fff,
+	    1px  1px 0 #fff;
+	   
+	  
+	}
+
+	.tag-line, .secondary-tag-line
+	{
+		
+		color: $jetti-white;
+		display: block;
 	}
 
 	.tag-line
 	{
 		font-weight: 400;
-		color: $jetti-white;
-		text-transform: uppercase;
-		font-size: 5vw;
-		line-height: 7vw;
-		padding-top: 3vh;
-		display: block;
-
+		font-size: 8vw;
+		line-height: 9vw;
+		padding-top: 4vh;
 	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 6vw;
+		line-height: 6.5vw;
+	}
+
 
 	.advance
 	{
@@ -109,20 +160,16 @@ svg
 
 main
 {
-
-	.advance-arrow
-	{
-		display: inline-block;
-		border: 3px solid $jetti-orange;
-		padding: 1em .5em 0 .5em;
-		border-radius: 2em;
-		background-color: #333;
-	}
-
 	.pages
 	{
-		height: 96vh;
+
 		padding: 0;
+		padding-bottom: 4vw;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
 
 		h1
 		{
@@ -135,21 +182,33 @@ main
 
 		h2
 		{
-			font-size: 7vw;
-			line-height: 9vw;
-			font-weight: 300;
+			font-size: 6vw;
+			line-height: 6.5vw;
+			font-weight: 600;
 			font-style: italic;
-			color: $jetti-font-other;
+			color: $jetti-orange;
+			padding-bottom: 3vw;
+		}
+
+		h3
+		{
+			font-size: 5vw;
+			line-height: 6vw;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+			padding-bottom: 0vw;
+			margin-bottom: 0;
 		}
 
 		p
 		{
 
-			font-size: 4vw;
-			line-height: 5.5vw;
+			font-size: 5vw;
+			line-height: 6vw;
 			font-weight: 300;
 			display: inline-block;
-
+			color: $jetti-light-grey;
 		}
 
 		.accent
@@ -160,22 +219,56 @@ main
 		}
 	}
 
-	/* Background Images */
+
 	.secondpage
 	{
-		/*
-		background: url(../img/restaurant-background-blur.png) no-repeat center center fixed;
-		background-color: $jetti-orange;
-		background-blend-mode: screen;
-		*/
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: 2vh;
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
 	}
 }
 
 footer
 {
-	background-color: pink;
+
 }
