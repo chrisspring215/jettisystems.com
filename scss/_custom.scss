@@ -51,12 +51,10 @@ header.contain-to-grid
 /* buttons */
 button
 {
-	border-radius: .3em;
 	color: $jetti-white;
 	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 4vw;
-	border: .65vw solid $jetti-white;
+	font-weight: 800;
+	font-size: 5vw;
 }
 
 /* SVG */
@@ -144,15 +142,10 @@ svg
 		line-height: 6.5vw;
 	}
 
-
 	.advance
 	{
-		font-size: 5vw;
-		line-height: 7vw;
 		display: block;
 		margin-top: 7vh;
-		margin-bottom: 3vh;
-		color: $jetti-white;
 	}
 
 	
@@ -258,6 +251,11 @@ main
 		}
 	}
 
+	.image-page
+	{
+		background-color: $jetti-orange;
+	}
+
 	.fithPage
 	{
 		background-color: $jetti-dark-grey;
@@ -266,9 +264,368 @@ main
 			color: $jetti-white;
 		}
 	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
 }
 
-footer
+@media only screen and (min-width: 40.063em) {
+
+button
+{
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 3vw;
+}
+
+.full-page-header
 {
 
+	height: 100vh;
+	padding-top: 18vh;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 28vw;
+		line-height: 32vw;
+
+	  
+	}
+
+	.tag-line, .secondary-tag-line
+	{	
+		color: $jetti-white;
+		display: block;
+	}
+
+	.tag-line
+	{
+		font-weight: 400;
+		font-size: 7vw;
+		line-height: 8vw;
+		padding-top: 3vh;
+	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 4vw;
+		line-height: 5vw;
+		margin-bottom: 8vw;
+	}
+
+	.advance
+	{
+		display: block;
+		margin-top: 7vh;
+	}
 }
+
+main
+{
+	.pages
+	{
+
+		padding: 0;
+		padding-top: 4vw;
+		padding-bottom: 6vw;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
+
+		h2
+		{
+			font-size: 5vw;
+			line-height: 5.5vw;
+			font-weight: 600;
+			font-style: italic;
+			color: $jetti-orange;
+			padding-bottom: 1vw;
+		}
+
+		h3
+		{
+			font-size: 4vw;
+			line-height: 5vw;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+			padding-bottom: 0vw;
+			margin-bottom: 0;
+		}
+
+		p
+		{
+			font-size: 4vw;
+			line-height: 5vw;
+			font-weight: 300;
+			display: inline-block;
+			color: $jetti-light-grey;
+		}
+
+		.accent
+		{
+			font-weight: 900;
+			font-style: italic;
+			color: $jetti-orange;
+		}
+	}
+
+
+	.secondpage
+	{
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: 2vh;
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+		background-color: $jetti-orange;
+
+		h2
+		{
+			color: $jetti-white;
+			padding-bottom: 4vw
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+
+		button
+		{
+		}
+	}
+}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 64.063em) {
+
+button
+{
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1vw;
+}
+
+.full-page-header
+{
+
+	height: 100vh;
+	padding-top: 25vh;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 10vw;
+		line-height: 1vw;
+	}
+
+	.tag-line, .secondary-tag-line
+	{	
+		color: $jetti-white;
+		display: block;
+	}
+
+	.tag-line
+	{
+		font-weight: 400;
+		font-size: 3vw;
+		padding-top: 2vw;
+	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 1.25vw;
+		padding-top: 0vw;
+		line-height: .25vw;
+	}
+
+	.advance
+	{
+		display: block;
+	}
+}
+
+main
+{
+	.pages
+	{
+
+		padding: 0;
+		padding-top: 4vw;
+		padding-bottom: 6vw;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
+
+		h2
+		{
+			font-size: 3vw;
+			line-height: 3vw;
+			font-weight: 600;
+			font-style: italic;
+			color: $jetti-orange;
+			padding-bottom: 1vw;
+		}
+
+		h3
+		{
+			font-size: 2.25vw;
+			line-height: 2.75vw;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+			padding-bottom: 0vw;
+			margin-bottom: 0;
+		}
+
+		p
+		{
+			font-size: 2.25vw;
+			line-height: 2.75vw;
+			font-weight: 300;
+			display: inline-block;
+			color: $jetti-light-grey;
+		}
+
+		.accent
+		{
+			font-weight: 900;
+			font-style: italic;
+			color: $jetti-orange;
+		}
+	}
+
+
+	.secondpage
+	{
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: 2vh;
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+		background-color: $jetti-orange;
+
+		h2
+		{
+			color: $jetti-white;
+			padding-bottom: 4vw
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+
+		button
+		{
+		}
+	}
+}
+
+} /* min-width 1025px, large screens */
