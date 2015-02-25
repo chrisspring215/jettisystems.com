@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Jetti</title>
+
+    <!-- Add description Meta -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
+    <!-- Google Fonts -->
+      <!-- Logo Font -->
+      <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+      <!-- Other -->
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+    <!-- End Google Fonts -->
+
+    <!-- SMOOTH SCROLL -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+      </script>
+      <!-- End of SMOOTH SCROLL -->
+
+  </head>
+  <body>
+ <!--
+    <header class="fixed contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <span><a class="jetti-logo-main" href="#">Jetti</a></span>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+
+          <ul class="right">
+            <li class="active"><a href="#">Right Button Active</a></li>
+            <li class="has-dropdown">
+              <a href="#">Right Button Dropdown</a>
+              <ul class="dropdown">
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="left">
+            <li><a href="#">Left Nav Button</a></li>
+          </ul>
+        </section>
+      </nav> 
+    </header>
+  -->   
+    <main>
+
+    <div class="contact-form">
+      <div class="row">
+        <div class="small-12 columns text-center">
+          <span class="form-title">Jetti</span>
+          <h3>We've got a great product and we want to show you how it will help.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <form action="affil_contact_form.php" method="post">
+            <div class="row">
+              <div class="small-12 large-6 large-centered columns">
+                <label>Your Name
+                  <input name="contact_name" type="text" placeholder="Joe Anybody" />
+                </label>
+              </div>
+              <div class="small-12 large-6 large-centered columns">
+                <label>Establishment's Name
+                  <input name="contact_company" type="text" placeholder="Your Restaurant" />
+                </label>
+              </div>
+              <div class="small-12 large-6 large-centered columns">
+                <label>Phone number
+                  <input name="contact_phone" type="tel" placeholder="123-456-7890" />
+                </label>
+              </div>
+              <div class="small-12 large-6 large-centered columns">
+                <label>Your Email
+                  <input name="contact_email" type="email" placeholder="you@someplace.com" />
+                </label>
+              </div>
+              <div class="small-12 large-6 large-centered columns">
+                <label>Message
+                  <textarea name="contact_message" placeholder="Anything you would like us to know about you?"></textarea>
+                </label>
+                <br>
+              </div>
+              <div class="small-12 large-6 large-centered columns">
+                <input class="button expand" type="submit" name="submit" id="submit" value="CONTACT US" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns text-center">
+
+        <a href="index.html">HOME</a>
+      </div>
+    </div>
+
+
+    </main>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53107264-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

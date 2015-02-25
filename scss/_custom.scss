@@ -9,6 +9,43 @@ $jetti-light-grey: #666;
 $jetti-lighter-grey: #ccc;
 $jetti-lightest-grey: #eee;
 
+.contact-form
+{
+	background-color: $jetti-orange;
+	height: 100%;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+
+	.form-title
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+		font-size: 14vw;
+	}
+
+	h3
+	{
+		color: $jetti-white;
+		font-size: 6vw;
+		line-height: 6.5vw;
+	}
+	label
+	{
+		color: $jetti-white;
+		font-weight: bold;
+	}
+
+	a
+	{
+		color: $jetti-white;
+	}
+
+	textarea
+	{
+		color: #333;
+	}
+}
+
 body
 {
 	height: 100vh;
