@@ -12,7 +12,7 @@ $jetti-lightest-grey: #eee;
 .contact-form
 {
 	background-color: $jetti-orange;
-	height: 100%;
+	height: 100vh;
 	padding-top: 4vh;
 	padding-bottom: 4vh;
 
@@ -20,7 +20,7 @@ $jetti-lightest-grey: #eee;
 	{
 		font-family: $jetti-font-main;
 		color: $jetti-white;
-		font-size: 14vw;
+		font-size: 24vw;
 	}
 
 	h3
@@ -43,6 +43,13 @@ $jetti-lightest-grey: #eee;
 	textarea
 	{
 		color: #333;
+	}
+
+	p
+	{
+		color: $jetti-white;
+		font-size: 6vw;
+		line-height: 7.5vw
 	}
 }
 
@@ -125,8 +132,8 @@ svg
 
 .full-page-header
 {
-	background: url(../img/background1.png) no-repeat center center fixed; 
-	background-color: $jetti-orange - 50;
+	background: url(../img/background2.jpg) no-repeat center center fixed; 
+	background-color: $jetti-orange;
 	/*
 	background-blend-mode: soft-light;
 	*/
@@ -327,8 +334,11 @@ button
 .full-page-header
 {
 
-	height: 100vh;
-	padding-top: 18vh;
+	background: url(../img/background1.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 	.small-main-logo
 	{
@@ -494,6 +504,49 @@ main
 
 @media only screen and (min-width: 64.063em) {
 
+.contact-form
+{
+	background-color: $jetti-orange;
+	height: 100vh;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+
+	.form-title
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+		font-size: 14vw;
+	}
+
+	h3
+	{
+		color: $jetti-white;
+		font-size: 6vw;
+		line-height: 6.5vw;
+	}
+	label
+	{
+		color: $jetti-white;
+		font-weight: bold;
+	}
+
+	a
+	{
+		color: $jetti-white;
+	}
+
+	textarea
+	{
+		color: #333;
+	}
+
+	p
+	{
+		color: $jetti-white;
+		font-size: 3vw;
+	}
+}
+
 button
 {
 	color: $jetti-white;
@@ -524,16 +577,19 @@ button
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 3vw;
-		padding-top: 2vw;
+		font-size: 2vw;
+		padding-top: 1vw;
+		margin-bottom: 0vw;
 	}
 
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 1.25vw;
+		font-size: 2vw;
 		padding-top: 0vw;
-		line-height: .25vw;
+		line-height: 2.25vw;
+		margin-top: 0vw;
+		margin-bottom: 2vw;
 	}
 
 	.advance
