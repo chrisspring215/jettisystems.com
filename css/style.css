@@ -10792,46 +10792,81 @@ main .eighthPage p {
   }
 }
 /* min-width 641px, medium screens */
+/* line 508, ../scss/_custom.scss */
+.blog .blog-nav {
+  background-color: #ff5722;
+  color: white;
+}
+/* line 514, ../scss/_custom.scss */
+.blog .date-nav {
+  margin-top: 2em;
+}
+/* line 519, ../scss/_custom.scss */
+.blog span {
+  font-family: "Sansita One", cursive;
+  color: #666666;
+}
+/* line 525, ../scss/_custom.scss */
+.blog aside {
+  display: inline-block;
+  border: 1px solid red;
+}
+/* line 531, ../scss/_custom.scss */
+.blog h1 {
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 1em;
+}
+/* line 538, ../scss/_custom.scss */
+.blog img {
+  margin-bottom: 1em;
+}
+/* line 543, ../scss/_custom.scss */
+.blog figcaption {
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
 @media only screen and (min-width: 64.063em) {
-  /* line 508, ../scss/_custom.scss */
+  /* line 553, ../scss/_custom.scss */
   .contact-form {
     background-color: #ff5722;
     height: 100vh;
     padding-top: 4vh;
     padding-bottom: 4vh;
   }
-  /* line 515, ../scss/_custom.scss */
+  /* line 560, ../scss/_custom.scss */
   .contact-form .form-title {
     font-family: "Sansita One", cursive;
     color: white;
     font-size: 14vw;
   }
-  /* line 522, ../scss/_custom.scss */
+  /* line 567, ../scss/_custom.scss */
   .contact-form h3 {
     color: white;
     font-size: 6vw;
     line-height: 6.5vw;
   }
-  /* line 528, ../scss/_custom.scss */
+  /* line 573, ../scss/_custom.scss */
   .contact-form label {
     color: white;
     font-weight: bold;
   }
-  /* line 534, ../scss/_custom.scss */
+  /* line 579, ../scss/_custom.scss */
   .contact-form a {
     color: white;
   }
-  /* line 539, ../scss/_custom.scss */
+  /* line 584, ../scss/_custom.scss */
   .contact-form textarea {
     color: #333;
   }
-  /* line 544, ../scss/_custom.scss */
+  /* line 589, ../scss/_custom.scss */
   .contact-form p {
     color: white;
     font-size: 3vw;
   }
 
-  /* line 551, ../scss/_custom.scss */
+  /* line 596, ../scss/_custom.scss */
   button {
     color: white;
     text-transform: uppercase;
@@ -10839,30 +10874,30 @@ main .eighthPage p {
     font-size: 1vw;
   }
 
-  /* line 559, ../scss/_custom.scss */
+  /* line 604, ../scss/_custom.scss */
   .full-page-header {
     height: 100vh;
     padding-top: 25vh;
   }
-  /* line 565, ../scss/_custom.scss */
+  /* line 610, ../scss/_custom.scss */
   .full-page-header .small-main-logo {
     font-family: "Sansita One", cursive;
     font-size: 10vw;
     line-height: 1vw;
   }
-  /* line 572, ../scss/_custom.scss */
+  /* line 617, ../scss/_custom.scss */
   .full-page-header .tag-line, .full-page-header .secondary-tag-line {
     color: white;
     display: block;
   }
-  /* line 578, ../scss/_custom.scss */
+  /* line 623, ../scss/_custom.scss */
   .full-page-header .tag-line {
     font-weight: 400;
     font-size: 2vw;
     padding-top: 1vw;
     margin-bottom: 0vw;
   }
-  /* line 586, ../scss/_custom.scss */
+  /* line 631, ../scss/_custom.scss */
   .full-page-header .secondary-tag-line {
     font-weight: 300;
     font-size: 2vw;
@@ -10871,22 +10906,22 @@ main .eighthPage p {
     margin-top: 0vw;
     margin-bottom: 2vw;
   }
-  /* line 596, ../scss/_custom.scss */
+  /* line 641, ../scss/_custom.scss */
   .full-page-header .advance {
     display: block;
   }
 
-  /* line 604, ../scss/_custom.scss */
+  /* line 649, ../scss/_custom.scss */
   main .pages {
     padding: 0;
     padding-top: 4vw;
     padding-bottom: 6vw;
   }
-  /* line 611, ../scss/_custom.scss */
+  /* line 656, ../scss/_custom.scss */
   main .pages .icon-image {
     margin-bottom: 2vh;
   }
-  /* line 616, ../scss/_custom.scss */
+  /* line 661, ../scss/_custom.scss */
   main .pages h2 {
     font-size: 3vw;
     line-height: 3vw;
@@ -10895,7 +10930,7 @@ main .eighthPage p {
     color: #ff5722;
     padding-bottom: 1vw;
   }
-  /* line 626, ../scss/_custom.scss */
+  /* line 671, ../scss/_custom.scss */
   main .pages h3 {
     font-size: 2.25vw;
     line-height: 2.75vw;
@@ -10905,7 +10940,7 @@ main .eighthPage p {
     padding-bottom: 0vw;
     margin-bottom: 0;
   }
-  /* line 637, ../scss/_custom.scss */
+  /* line 682, ../scss/_custom.scss */
   main .pages p {
     font-size: 2.25vw;
     line-height: 2.75vw;
@@ -10913,64 +10948,64 @@ main .eighthPage p {
     display: inline-block;
     color: #666666;
   }
-  /* line 646, ../scss/_custom.scss */
+  /* line 691, ../scss/_custom.scss */
   main .pages .accent {
     font-weight: 900;
     font-style: italic;
     color: #ff5722;
   }
-  /* line 655, ../scss/_custom.scss */
+  /* line 700, ../scss/_custom.scss */
   main .secondpage {
     background-color: white;
   }
-  /* line 659, ../scss/_custom.scss */
+  /* line 704, ../scss/_custom.scss */
   main .secondpage .bulletPoint {
     padding-top: 2vh;
   }
-  /* line 664, ../scss/_custom.scss */
+  /* line 709, ../scss/_custom.scss */
   main .secondpage h2 {
     color: #ff5722;
   }
-  /* line 668, ../scss/_custom.scss */
+  /* line 713, ../scss/_custom.scss */
   main .secondpage h3 {
     color: #333333;
   }
-  /* line 672, ../scss/_custom.scss */
+  /* line 717, ../scss/_custom.scss */
   main .secondpage p {
     color: #666666;
   }
-  /* line 678, ../scss/_custom.scss */
+  /* line 723, ../scss/_custom.scss */
   main .thirdPage {
     background-color: #333333;
   }
-  /* line 682, ../scss/_custom.scss */
+  /* line 727, ../scss/_custom.scss */
   main .thirdPage h2 {
     color: #ff5722;
   }
-  /* line 687, ../scss/_custom.scss */
+  /* line 732, ../scss/_custom.scss */
   main .thirdPage p {
     color: white;
   }
-  /* line 693, ../scss/_custom.scss */
+  /* line 738, ../scss/_custom.scss */
   main .fithPage {
     background-color: #333333;
   }
-  /* line 696, ../scss/_custom.scss */
+  /* line 741, ../scss/_custom.scss */
   main .fithPage p {
     color: white;
   }
-  /* line 702, ../scss/_custom.scss */
+  /* line 747, ../scss/_custom.scss */
   main .eighthPage {
     padding-top: 8vw;
     padding-bottom: 8vw;
     background-color: #ff5722;
   }
-  /* line 708, ../scss/_custom.scss */
+  /* line 753, ../scss/_custom.scss */
   main .eighthPage h2 {
     color: white;
     padding-bottom: 4vw;
   }
-  /* line 714, ../scss/_custom.scss */
+  /* line 759, ../scss/_custom.scss */
   main .eighthPage p {
     color: white;
   }

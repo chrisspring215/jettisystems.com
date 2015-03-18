@@ -502,6 +502,51 @@ main
 }
 } /* min-width 641px, medium screens */
 
+.blog
+{
+	.blog-nav
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+	.date-nav
+	{
+		margin-top:2em;
+	}
+
+	span
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-light-grey;
+	}
+
+	aside
+	{
+		display: inline-block;
+		border: 1px solid red;
+	}
+
+	h1
+	{
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1em;
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+	}
+
+	figcaption
+	{
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+
+}
+
 @media only screen and (min-width: 64.063em) {
 
 .contact-form
