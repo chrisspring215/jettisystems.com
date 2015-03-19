@@ -515,7 +515,13 @@ main
 		margin-top:2em;
 	}
 
-	span
+	.blog-logo a
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+	}
+
+	.date
 	{
 		font-family: $jetti-font-main;
 		color: $jetti-light-grey;
@@ -527,11 +533,18 @@ main
 		border: 1px solid red;
 	}
 
-	h1
+	.blog-title
 	{
 		font-weight: bold;
 		font-size: 4em;
 		line-height: 1em;
+		margin-bottom: 0em;
+		padding-bottom: 0;
+	}
+
+	.blog-sub-title
+	{
+		margin-bottom: 1em;
 	}
 
 	img
@@ -543,6 +556,20 @@ main
 	{
 		margin-bottom: 1em;
 		font-style: italic;
+	}
+
+	blockquote
+	{
+
+		font-size: 1.75em;
+		font-family: $jetti-font-main;
+		color: $jetti-orange;
+	}
+
+	.panel.callout
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
 	}
 
 }
