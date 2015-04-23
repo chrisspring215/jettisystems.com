@@ -9,6 +9,129 @@ $jetti-light-grey: #666;
 $jetti-lighter-grey: #ccc;
 $jetti-lightest-grey: #eee;
 
+.blog
+{
+	.blog-nav
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+	.date-nav
+	{
+		margin-top:2em;
+	}
+
+	.blog-logo a
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+	}
+
+	.date
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-light-grey;
+	}
+
+	aside
+	{
+		display: inline-block;
+		position: fixed;
+		border: 1px solid #ccc;	
+		background-color: white;
+		
+	}
+
+	.aside-call-to-action
+	{
+		top: 6.25rem;
+		width: 12em;
+		right: 2em;
+		padding: 1em;
+	}
+
+	.aside-social
+	{
+		top: 26.25rem;
+		width: 8em;
+		right: 4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.aside-social-title
+	{
+		margin-top: .5em;
+		margin-bottom: -.5em;
+		font-weight: 900;
+	}
+
+	.aside-social-link
+	{
+		width: 6em;
+		height: 6em;
+		border: 1px solid red;
+		display: block;
+		margin: 1em 0;
+	}
+
+	.blog-title
+	{
+		font-weight: bold;
+		font-size: 2em;
+		line-height: 1em;
+		margin-bottom: 0em;
+		padding-bottom: 0;
+	}
+
+	.blog-sub-title
+	{
+		font-size: 1.25em;
+		margin-bottom: 0em;
+		font-weight: 300;
+	}
+
+	.byline
+	{
+		font-size: 1em;
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.blog-section-title
+	{
+		font-weight: 700;
+		color: #333;
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+	}
+
+	figcaption
+	{
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+
+	blockquote
+	{
+
+		font-size: 1.75em;
+		font-family: $jetti-font-main;
+		color: $jetti-orange;
+	}
+
+	.panel.callout
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+}
+
 .contact-form
 {
 	background-color: $jetti-orange;
@@ -144,22 +267,21 @@ svg
 	
 
 	height: 100vh;
-	padding-top: 15vh;
+	padding-top: 20vh;
 
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
-		font-size: 35vw;
-		line-height: 37vw;
+		font-size: 7em;
 		color: $jetti-orange;
-		margin: 0;
-		padding: 0;
 		text-shadow: 2px 2px 0 $jetti-white,
 
 		-1px -1px 0 #fff,  
 	    1px -1px 0 #fff,
 	   -1px  1px 0 #fff,
 	    1px  1px 0 #fff;
+
+	    line-height: .25em;
 	   
 	  
 	}
@@ -174,22 +296,22 @@ svg
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 8vw;
-		line-height: 9vw;
-		padding-top: 4vh;
+		font-size: 2em;
+		line-height: 1em;
+		padding-top: 1em;
 	}
 
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 6vw;
-		line-height: 6.5vw;
+		font-size: 1em;
+		line-height: 1.3em;
 	}
 
 	.advance
 	{
 		display: block;
-		margin-top: 7vh;
+		margin-top: 1.5em;
 	}
 
 	
@@ -324,6 +446,129 @@ main
 
 @media only screen and (min-width: 40.063em) {
 
+.blog
+{
+	.blog-nav
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+	.date-nav
+	{
+		margin-top:2em;
+	}
+
+	.blog-logo a
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+	}
+
+	.date
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-light-grey;
+	}
+
+	aside
+	{
+		display: inline-block;
+		position: fixed;
+		border: 1px solid #ccc;	
+		background-color: white;
+		
+	}
+
+	.aside-call-to-action
+	{
+		top: 6.25rem;
+		width: 12em;
+		right: 2em;
+		padding: 1em;
+	}
+
+	.aside-social
+	{
+		top: 26.25rem;
+		width: 8em;
+		right: 4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.aside-social-title
+	{
+		margin-top: .5em;
+		margin-bottom: -.5em;
+		font-weight: 900;
+	}
+
+	.aside-social-link
+	{
+		width: 6em;
+		height: 6em;
+		border: 1px solid red;
+		display: block;
+		margin: 1em 0;
+	}
+
+	.blog-title
+	{
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1em;
+		margin-bottom: 0em;
+		padding-bottom: 0;
+	}
+
+	.blog-sub-title
+	{
+		font-size: 2em;
+		margin-bottom: 0em;
+		font-weight: 300;
+	}
+
+	.byline
+	{
+		font-size: 1em;
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.blog-section-title
+	{
+		font-weight: 700;
+		color: #333;
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+	}
+
+	figcaption
+	{
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+
+	blockquote
+	{
+
+		font-size: 1.75em;
+		font-family: $jetti-font-main;
+		color: $jetti-orange;
+	}
+
+	.panel.callout
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+}
+
 button
 {
 	color: $jetti-white;
@@ -341,13 +586,12 @@ button
 	-o-background-size: cover;
 	background-size: cover;
 
+	padding-top: 10em;
+
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
-		font-size: 28vw;
-		line-height: 32vw;
-
-	  
+		font-size: 10em;
 	}
 
 	.tag-line, .secondary-tag-line
@@ -359,23 +603,21 @@ button
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 7vw;
-		line-height: 8vw;
-		padding-top: 3vh;
+		font-size: 3.5em;
 	}
 
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 4vw;
-		line-height: 5vw;
-		margin-bottom: 8vw;
+		font-size: 1.75em;
+		line-height: 1.2em;
+		margin-bottom: 2em;
 	}
 
 	.advance
 	{
 		display: block;
-		margin-top: 7vh;
+		margin-top: 2em;
 	}
 }
 
@@ -503,127 +745,7 @@ main
 }
 } /* min-width 641px, medium screens */
 
-.blog
-{
-	.blog-nav
-	{
-		background-color: $jetti-orange;
-		color: $jetti-white;
-	}
 
-	.date-nav
-	{
-		margin-top:2em;
-	}
-
-	.blog-logo a
-	{
-		font-family: $jetti-font-main;
-		color: $jetti-white;
-	}
-
-	.date
-	{
-		font-family: $jetti-font-main;
-		color: $jetti-light-grey;
-	}
-
-	aside
-	{
-		display: inline-block;
-		position: fixed;
-		border: 1px solid #ccc;	
-		background-color: white;
-		
-	}
-
-	.aside-call-to-action
-	{
-		top: 6.25rem;
-		width: 12em;
-		right: 2em;
-		padding: 1em;
-	}
-
-	.aside-social
-	{
-		top: 26.25rem;
-		width: 8em;
-		right: 4em;
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-
-	.aside-social-title
-	{
-		margin-top: .5em;
-		margin-bottom: -.5em;
-		font-weight: 900;
-	}
-
-	.aside-social-link
-	{
-		width: 6em;
-		height: 6em;
-		border: 1px solid red;
-		display: block;
-		margin: 1em 0;
-	}
-
-	.blog-title
-	{
-		font-weight: bold;
-		font-size: 4em;
-		line-height: 1em;
-		margin-bottom: 0em;
-		padding-bottom: 0;
-	}
-
-	.blog-sub-title
-	{
-		margin-bottom: 0em;
-		font-weight: 300;
-	}
-
-	.byline
-	{
-		font-size: 1em;
-		display: block;
-		padding-bottom: 1em;
-	}
-
-	.blog-section-title
-	{
-		font-weight: 700;
-		color: #333;
-	}
-
-	img
-	{
-		margin-bottom: 1em;
-	}
-
-	figcaption
-	{
-		margin-bottom: 1em;
-		font-style: italic;
-	}
-
-	blockquote
-	{
-
-		font-size: 1.75em;
-		font-family: $jetti-font-main;
-		color: $jetti-orange;
-	}
-
-	.panel.callout
-	{
-		background-color: $jetti-orange;
-		color: $jetti-white;
-	}
-
-}
 
 @media only screen and (min-width: 64.063em) {
 
@@ -687,8 +809,7 @@ button
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
-		font-size: 10vw;
-		line-height: 1vw;
+		font-size: 10em;
 	}
 
 	.tag-line, .secondary-tag-line
@@ -700,19 +821,16 @@ button
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 2vw;
-		padding-top: 1vw;
-		margin-bottom: 0vw;
+		font-size: 3.5em;
+		padding-top: .5em;
 	}
 
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 2vw;
-		padding-top: 0vw;
-		line-height: 2.25vw;
-		margin-top: 0vw;
-		margin-bottom: 2vw;
+		font-size: 1.75em;
+		line-height: 1.2em;
+		margin-bottom: 1em;
 	}
 
 	.advance
