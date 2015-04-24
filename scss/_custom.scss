@@ -134,8 +134,7 @@ $jetti-lightest-grey: #eee;
 
 .contact-form
 {
-	background-color: $jetti-orange;
-	height: 100vh;
+	
 	padding-top: 4vh;
 	padding-bottom: 4vh;
 
@@ -176,10 +175,10 @@ $jetti-lightest-grey: #eee;
 	}
 }
 
-body
+.form-body
 {
 	height: 100vh;
-	background: linear-gradient($jetti-lightest-grey, $jetti-lightest-grey);
+	background: $jetti-orange;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, span
@@ -751,8 +750,6 @@ main
 
 .contact-form
 {
-	background-color: $jetti-orange;
-	height: 100vh;
 	padding-top: 4vh;
 	padding-bottom: 4vh;
 
@@ -760,14 +757,14 @@ main
 	{
 		font-family: $jetti-font-main;
 		color: $jetti-white;
-		font-size: 14vw;
+		font-size: 8em;
 	}
 
 	h3
 	{
 		color: $jetti-white;
-		font-size: 6vw;
-		line-height: 6.5vw;
+		font-size: 2em;
+		line-height: 1.3em
 	}
 	label
 	{

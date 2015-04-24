@@ -10484,50 +10484,48 @@ th {
 
 /* line 136, ../scss/_custom.scss */
 .contact-form {
-  background-color: #ff5722;
-  height: 100vh;
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
-/* line 143, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .contact-form .form-title {
   font-family: "Sansita One", cursive;
   color: white;
   font-size: 24vw;
 }
-/* line 150, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 .contact-form h3 {
   color: white;
   font-size: 6vw;
   line-height: 6.5vw;
 }
-/* line 156, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 .contact-form label {
   color: white;
   font-weight: bold;
 }
-/* line 162, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 .contact-form a {
   color: white;
 }
-/* line 167, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .contact-form textarea {
   color: #333;
 }
-/* line 172, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
 .contact-form p {
   color: white;
   font-size: 6vw;
   line-height: 7.5vw;
 }
 
-/* line 180, ../scss/_custom.scss */
-body {
+/* line 179, ../scss/_custom.scss */
+.form-body {
   height: 100vh;
-  background: linear-gradient(#eeeeee, #eeeeee);
+  background: #ff5722;
 }
 
-/* line 186, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, span {
   font-family: "Roboto", sans-serif;
 }
@@ -10560,7 +10558,7 @@ header.contain-to-grid
 }
 */
 /* buttons */
-/* line 220, ../scss/_custom.scss */
+/* line 219, ../scss/_custom.scss */
 button {
   color: white;
   text-transform: uppercase;
@@ -10569,30 +10567,30 @@ button {
 }
 
 /* SVG */
-/* line 230, ../scss/_custom.scss */
+/* line 229, ../scss/_custom.scss */
 svg {
   transition: padding-top 0.25s ease;
   padding-top: 0em;
 }
-/* line 235, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 svg .polygon-1 {
   fill: #ffffd1;
 }
-/* line 239, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 svg .polygon-2 {
   fill: #e63e09;
 }
-/* line 243, ../scss/_custom.scss */
+/* line 242, ../scss/_custom.scss */
 svg .polygon-3 {
   fill: #d22a00;
 }
-/* line 248, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 svg:hover {
   transition: padding-top 0.5s ease;
   padding-top: .2em;
 }
 
-/* line 257, ../scss/_custom.scss */
+/* line 256, ../scss/_custom.scss */
 .full-page-header {
   background: url(../img/background2.jpg) no-repeat center center fixed;
   background-color: #ff5722;
@@ -10606,7 +10604,7 @@ svg:hover {
   height: 100vh;
   padding-top: 20vh;
 }
-/* line 273, ../scss/_custom.scss */
+/* line 272, ../scss/_custom.scss */
 .full-page-header .small-main-logo {
   font-family: "Sansita One", cursive;
   font-size: 7em;
@@ -10614,40 +10612,40 @@ svg:hover {
   text-shadow: 2px 2px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   line-height: .25em;
 }
-/* line 290, ../scss/_custom.scss */
+/* line 289, ../scss/_custom.scss */
 .full-page-header .tag-line, .full-page-header .secondary-tag-line {
   color: white;
   display: block;
 }
-/* line 297, ../scss/_custom.scss */
+/* line 296, ../scss/_custom.scss */
 .full-page-header .tag-line {
   font-weight: 400;
   font-size: 2em;
   line-height: 1em;
   padding-top: 1em;
 }
-/* line 305, ../scss/_custom.scss */
+/* line 304, ../scss/_custom.scss */
 .full-page-header .secondary-tag-line {
   font-weight: 300;
   font-size: 1em;
   line-height: 1.3em;
 }
-/* line 312, ../scss/_custom.scss */
+/* line 311, ../scss/_custom.scss */
 .full-page-header .advance {
   display: block;
   margin-top: 1.5em;
 }
 
-/* line 323, ../scss/_custom.scss */
+/* line 322, ../scss/_custom.scss */
 main .pages {
   padding: 0;
   padding-bottom: 4vw;
 }
-/* line 329, ../scss/_custom.scss */
+/* line 328, ../scss/_custom.scss */
 main .pages .icon-image {
   margin-bottom: 2vh;
 }
-/* line 334, ../scss/_custom.scss */
+/* line 333, ../scss/_custom.scss */
 main .pages h1 {
   font-size: 7vw;
   line-height: 9vw;
@@ -10655,7 +10653,7 @@ main .pages h1 {
   color: #ff5722;
   font-style: italic;
 }
-/* line 343, ../scss/_custom.scss */
+/* line 342, ../scss/_custom.scss */
 main .pages h2 {
   font-size: 6vw;
   line-height: 6.5vw;
@@ -10664,7 +10662,7 @@ main .pages h2 {
   color: #ff5722;
   padding-bottom: 3vw;
 }
-/* line 353, ../scss/_custom.scss */
+/* line 352, ../scss/_custom.scss */
 main .pages h3 {
   font-size: 5vw;
   line-height: 6vw;
@@ -10674,7 +10672,7 @@ main .pages h3 {
   padding-bottom: 0vw;
   margin-bottom: 0;
 }
-/* line 364, ../scss/_custom.scss */
+/* line 363, ../scss/_custom.scss */
 main .pages p {
   font-size: 5vw;
   line-height: 6vw;
@@ -10682,102 +10680,102 @@ main .pages p {
   display: inline-block;
   color: #666666;
 }
-/* line 374, ../scss/_custom.scss */
+/* line 373, ../scss/_custom.scss */
 main .pages .accent {
   font-weight: 900;
   font-style: italic;
   color: #ff5722;
 }
-/* line 383, ../scss/_custom.scss */
+/* line 382, ../scss/_custom.scss */
 main .secondpage {
   background-color: white;
 }
-/* line 387, ../scss/_custom.scss */
+/* line 386, ../scss/_custom.scss */
 main .secondpage .bulletPoint {
   padding-top: 2vh;
 }
-/* line 392, ../scss/_custom.scss */
+/* line 391, ../scss/_custom.scss */
 main .secondpage h2 {
   color: #ff5722;
 }
-/* line 396, ../scss/_custom.scss */
+/* line 395, ../scss/_custom.scss */
 main .secondpage h3 {
   color: #333333;
 }
-/* line 400, ../scss/_custom.scss */
+/* line 399, ../scss/_custom.scss */
 main .secondpage p {
   color: #666666;
 }
-/* line 406, ../scss/_custom.scss */
+/* line 405, ../scss/_custom.scss */
 main .thirdPage {
   background-color: #333333;
 }
-/* line 410, ../scss/_custom.scss */
+/* line 409, ../scss/_custom.scss */
 main .thirdPage h2 {
   color: #ff5722;
 }
-/* line 415, ../scss/_custom.scss */
+/* line 414, ../scss/_custom.scss */
 main .thirdPage p {
   color: white;
 }
-/* line 421, ../scss/_custom.scss */
+/* line 420, ../scss/_custom.scss */
 main .image-page {
   background-color: #ff5722;
 }
-/* line 426, ../scss/_custom.scss */
+/* line 425, ../scss/_custom.scss */
 main .fithPage {
   background-color: #333333;
 }
-/* line 429, ../scss/_custom.scss */
+/* line 428, ../scss/_custom.scss */
 main .fithPage p {
   color: white;
 }
-/* line 435, ../scss/_custom.scss */
+/* line 434, ../scss/_custom.scss */
 main .eighthPage {
   padding-top: 8vw;
   padding-bottom: 8vw;
   background-color: #333333;
 }
-/* line 440, ../scss/_custom.scss */
+/* line 439, ../scss/_custom.scss */
 main .eighthPage p {
   color: white;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 452, ../scss/_custom.scss */
+  /* line 451, ../scss/_custom.scss */
   .blog .blog-nav {
     background-color: #ff5722;
     color: white;
   }
-  /* line 458, ../scss/_custom.scss */
+  /* line 457, ../scss/_custom.scss */
   .blog .date-nav {
     margin-top: 2em;
   }
-  /* line 463, ../scss/_custom.scss */
+  /* line 462, ../scss/_custom.scss */
   .blog .blog-logo a {
     font-family: "Sansita One", cursive;
     color: white;
   }
-  /* line 469, ../scss/_custom.scss */
+  /* line 468, ../scss/_custom.scss */
   .blog .date {
     font-family: "Sansita One", cursive;
     color: #666666;
   }
-  /* line 475, ../scss/_custom.scss */
+  /* line 474, ../scss/_custom.scss */
   .blog aside {
     display: inline-block;
     position: fixed;
     border: 1px solid #ccc;
     background-color: white;
   }
-  /* line 484, ../scss/_custom.scss */
+  /* line 483, ../scss/_custom.scss */
   .blog .aside-call-to-action {
     top: 6.25rem;
     width: 12em;
     right: 2em;
     padding: 1em;
   }
-  /* line 492, ../scss/_custom.scss */
+  /* line 491, ../scss/_custom.scss */
   .blog .aside-social {
     top: 26.25rem;
     width: 8em;
@@ -10785,13 +10783,13 @@ main .eighthPage p {
     padding-left: 1em;
     padding-right: 1em;
   }
-  /* line 501, ../scss/_custom.scss */
+  /* line 500, ../scss/_custom.scss */
   .blog .aside-social-title {
     margin-top: .5em;
     margin-bottom: -0.5em;
     font-weight: 900;
   }
-  /* line 508, ../scss/_custom.scss */
+  /* line 507, ../scss/_custom.scss */
   .blog .aside-social-link {
     width: 6em;
     height: 6em;
@@ -10799,7 +10797,7 @@ main .eighthPage p {
     display: block;
     margin: 1em 0;
   }
-  /* line 517, ../scss/_custom.scss */
+  /* line 516, ../scss/_custom.scss */
   .blog .blog-title {
     font-weight: bold;
     font-size: 4em;
@@ -10807,45 +10805,45 @@ main .eighthPage p {
     margin-bottom: 0em;
     padding-bottom: 0;
   }
-  /* line 526, ../scss/_custom.scss */
+  /* line 525, ../scss/_custom.scss */
   .blog .blog-sub-title {
     font-size: 2em;
     margin-bottom: 0em;
     font-weight: 300;
   }
-  /* line 533, ../scss/_custom.scss */
+  /* line 532, ../scss/_custom.scss */
   .blog .byline {
     font-size: 1em;
     display: block;
     padding-bottom: 1em;
   }
-  /* line 540, ../scss/_custom.scss */
+  /* line 539, ../scss/_custom.scss */
   .blog .blog-section-title {
     font-weight: 700;
     color: #333;
   }
-  /* line 546, ../scss/_custom.scss */
+  /* line 545, ../scss/_custom.scss */
   .blog img {
     margin-bottom: 1em;
   }
-  /* line 551, ../scss/_custom.scss */
+  /* line 550, ../scss/_custom.scss */
   .blog figcaption {
     margin-bottom: 1em;
     font-style: italic;
   }
-  /* line 557, ../scss/_custom.scss */
+  /* line 556, ../scss/_custom.scss */
   .blog blockquote {
     font-size: 1.75em;
     font-family: "Sansita One", cursive;
     color: #ff5722;
   }
-  /* line 565, ../scss/_custom.scss */
+  /* line 564, ../scss/_custom.scss */
   .blog .panel.callout {
     background-color: #ff5722;
     color: white;
   }
 
-  /* line 573, ../scss/_custom.scss */
+  /* line 572, ../scss/_custom.scss */
   button {
     color: white;
     text-transform: uppercase;
@@ -10853,7 +10851,7 @@ main .eighthPage p {
     font-size: 3vw;
   }
 
-  /* line 581, ../scss/_custom.scss */
+  /* line 580, ../scss/_custom.scss */
   .full-page-header {
     background: url(../img/background1.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -10862,45 +10860,45 @@ main .eighthPage p {
     background-size: cover;
     padding-top: 10em;
   }
-  /* line 592, ../scss/_custom.scss */
+  /* line 591, ../scss/_custom.scss */
   .full-page-header .small-main-logo {
     font-family: "Sansita One", cursive;
     font-size: 10em;
   }
-  /* line 598, ../scss/_custom.scss */
+  /* line 597, ../scss/_custom.scss */
   .full-page-header .tag-line, .full-page-header .secondary-tag-line {
     color: white;
     display: block;
   }
-  /* line 604, ../scss/_custom.scss */
+  /* line 603, ../scss/_custom.scss */
   .full-page-header .tag-line {
     font-weight: 400;
     font-size: 3.5em;
   }
-  /* line 610, ../scss/_custom.scss */
+  /* line 609, ../scss/_custom.scss */
   .full-page-header .secondary-tag-line {
     font-weight: 300;
     font-size: 1.75em;
     line-height: 1.2em;
     margin-bottom: 2em;
   }
-  /* line 618, ../scss/_custom.scss */
+  /* line 617, ../scss/_custom.scss */
   .full-page-header .advance {
     display: block;
     margin-top: 2em;
   }
 
-  /* line 627, ../scss/_custom.scss */
+  /* line 626, ../scss/_custom.scss */
   main .pages {
     padding: 0;
     padding-top: 4vw;
     padding-bottom: 6vw;
   }
-  /* line 634, ../scss/_custom.scss */
+  /* line 633, ../scss/_custom.scss */
   main .pages .icon-image {
     margin-bottom: 2vh;
   }
-  /* line 639, ../scss/_custom.scss */
+  /* line 638, ../scss/_custom.scss */
   main .pages h2 {
     font-size: 5vw;
     line-height: 5.5vw;
@@ -10909,7 +10907,7 @@ main .eighthPage p {
     color: #ff5722;
     padding-bottom: 1vw;
   }
-  /* line 649, ../scss/_custom.scss */
+  /* line 648, ../scss/_custom.scss */
   main .pages h3 {
     font-size: 4vw;
     line-height: 5vw;
@@ -10919,7 +10917,7 @@ main .eighthPage p {
     padding-bottom: 0vw;
     margin-bottom: 0;
   }
-  /* line 660, ../scss/_custom.scss */
+  /* line 659, ../scss/_custom.scss */
   main .pages p {
     font-size: 4vw;
     line-height: 5vw;
@@ -10927,109 +10925,107 @@ main .eighthPage p {
     display: inline-block;
     color: #666666;
   }
-  /* line 669, ../scss/_custom.scss */
+  /* line 668, ../scss/_custom.scss */
   main .pages .accent {
     font-weight: 900;
     font-style: italic;
     color: #ff5722;
   }
-  /* line 678, ../scss/_custom.scss */
+  /* line 677, ../scss/_custom.scss */
   main .secondpage {
     background-color: white;
   }
-  /* line 682, ../scss/_custom.scss */
+  /* line 681, ../scss/_custom.scss */
   main .secondpage .bulletPoint {
     padding-top: 2vh;
   }
-  /* line 687, ../scss/_custom.scss */
+  /* line 686, ../scss/_custom.scss */
   main .secondpage h2 {
     color: #ff5722;
   }
-  /* line 691, ../scss/_custom.scss */
+  /* line 690, ../scss/_custom.scss */
   main .secondpage h3 {
     color: #333333;
   }
-  /* line 695, ../scss/_custom.scss */
+  /* line 694, ../scss/_custom.scss */
   main .secondpage p {
     color: #666666;
   }
-  /* line 701, ../scss/_custom.scss */
+  /* line 700, ../scss/_custom.scss */
   main .thirdPage {
     background-color: #333333;
   }
-  /* line 705, ../scss/_custom.scss */
+  /* line 704, ../scss/_custom.scss */
   main .thirdPage h2 {
     color: #ff5722;
   }
-  /* line 710, ../scss/_custom.scss */
+  /* line 709, ../scss/_custom.scss */
   main .thirdPage p {
     color: white;
   }
-  /* line 716, ../scss/_custom.scss */
+  /* line 715, ../scss/_custom.scss */
   main .fithPage {
     background-color: #333333;
   }
-  /* line 719, ../scss/_custom.scss */
+  /* line 718, ../scss/_custom.scss */
   main .fithPage p {
     color: white;
   }
-  /* line 725, ../scss/_custom.scss */
+  /* line 724, ../scss/_custom.scss */
   main .eighthPage {
     padding-top: 8vw;
     padding-bottom: 8vw;
     background-color: #ff5722;
   }
-  /* line 731, ../scss/_custom.scss */
+  /* line 730, ../scss/_custom.scss */
   main .eighthPage h2 {
     color: white;
     padding-bottom: 4vw;
   }
-  /* line 737, ../scss/_custom.scss */
+  /* line 736, ../scss/_custom.scss */
   main .eighthPage p {
     color: white;
   }
 }
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 64.063em) {
-  /* line 753, ../scss/_custom.scss */
+  /* line 752, ../scss/_custom.scss */
   .contact-form {
-    background-color: #ff5722;
-    height: 100vh;
     padding-top: 4vh;
     padding-bottom: 4vh;
   }
-  /* line 760, ../scss/_custom.scss */
+  /* line 757, ../scss/_custom.scss */
   .contact-form .form-title {
     font-family: "Sansita One", cursive;
     color: white;
-    font-size: 14vw;
+    font-size: 8em;
   }
-  /* line 767, ../scss/_custom.scss */
+  /* line 764, ../scss/_custom.scss */
   .contact-form h3 {
     color: white;
-    font-size: 6vw;
-    line-height: 6.5vw;
+    font-size: 2em;
+    line-height: 1.3em;
   }
-  /* line 773, ../scss/_custom.scss */
+  /* line 770, ../scss/_custom.scss */
   .contact-form label {
     color: white;
     font-weight: bold;
   }
-  /* line 779, ../scss/_custom.scss */
+  /* line 776, ../scss/_custom.scss */
   .contact-form a {
     color: white;
   }
-  /* line 784, ../scss/_custom.scss */
+  /* line 781, ../scss/_custom.scss */
   .contact-form textarea {
     color: #333;
   }
-  /* line 789, ../scss/_custom.scss */
+  /* line 786, ../scss/_custom.scss */
   .contact-form p {
     color: white;
     font-size: 3vw;
   }
 
-  /* line 796, ../scss/_custom.scss */
+  /* line 793, ../scss/_custom.scss */
   button {
     color: white;
     text-transform: uppercase;
@@ -11037,50 +11033,50 @@ main .eighthPage p {
     font-size: 1vw;
   }
 
-  /* line 804, ../scss/_custom.scss */
+  /* line 801, ../scss/_custom.scss */
   .full-page-header {
     height: 100vh;
     padding-top: 25vh;
   }
-  /* line 810, ../scss/_custom.scss */
+  /* line 807, ../scss/_custom.scss */
   .full-page-header .small-main-logo {
     font-family: "Sansita One", cursive;
     font-size: 10em;
   }
-  /* line 816, ../scss/_custom.scss */
+  /* line 813, ../scss/_custom.scss */
   .full-page-header .tag-line, .full-page-header .secondary-tag-line {
     color: white;
     display: block;
   }
-  /* line 822, ../scss/_custom.scss */
+  /* line 819, ../scss/_custom.scss */
   .full-page-header .tag-line {
     font-weight: 400;
     font-size: 3.5em;
     padding-top: .5em;
   }
-  /* line 829, ../scss/_custom.scss */
+  /* line 826, ../scss/_custom.scss */
   .full-page-header .secondary-tag-line {
     font-weight: 300;
     font-size: 1.75em;
     line-height: 1.2em;
     margin-bottom: 1em;
   }
-  /* line 837, ../scss/_custom.scss */
+  /* line 834, ../scss/_custom.scss */
   .full-page-header .advance {
     display: block;
   }
 
-  /* line 845, ../scss/_custom.scss */
+  /* line 842, ../scss/_custom.scss */
   main .pages {
     padding: 0;
     padding-top: 4vw;
     padding-bottom: 6vw;
   }
-  /* line 852, ../scss/_custom.scss */
+  /* line 849, ../scss/_custom.scss */
   main .pages .icon-image {
     margin-bottom: 2vh;
   }
-  /* line 857, ../scss/_custom.scss */
+  /* line 854, ../scss/_custom.scss */
   main .pages h2 {
     font-size: 3vw;
     line-height: 3vw;
@@ -11089,7 +11085,7 @@ main .eighthPage p {
     color: #ff5722;
     padding-bottom: 1vw;
   }
-  /* line 867, ../scss/_custom.scss */
+  /* line 864, ../scss/_custom.scss */
   main .pages h3 {
     font-size: 2.25vw;
     line-height: 2.75vw;
@@ -11099,7 +11095,7 @@ main .eighthPage p {
     padding-bottom: 0vw;
     margin-bottom: 0;
   }
-  /* line 878, ../scss/_custom.scss */
+  /* line 875, ../scss/_custom.scss */
   main .pages p {
     font-size: 2.25vw;
     line-height: 2.75vw;
@@ -11107,64 +11103,64 @@ main .eighthPage p {
     display: inline-block;
     color: #666666;
   }
-  /* line 887, ../scss/_custom.scss */
+  /* line 884, ../scss/_custom.scss */
   main .pages .accent {
     font-weight: 900;
     font-style: italic;
     color: #ff5722;
   }
-  /* line 896, ../scss/_custom.scss */
+  /* line 893, ../scss/_custom.scss */
   main .secondpage {
     background-color: white;
   }
-  /* line 900, ../scss/_custom.scss */
+  /* line 897, ../scss/_custom.scss */
   main .secondpage .bulletPoint {
     padding-top: 2vh;
   }
-  /* line 905, ../scss/_custom.scss */
+  /* line 902, ../scss/_custom.scss */
   main .secondpage h2 {
     color: #ff5722;
   }
-  /* line 909, ../scss/_custom.scss */
+  /* line 906, ../scss/_custom.scss */
   main .secondpage h3 {
     color: #333333;
   }
-  /* line 913, ../scss/_custom.scss */
+  /* line 910, ../scss/_custom.scss */
   main .secondpage p {
     color: #666666;
   }
-  /* line 919, ../scss/_custom.scss */
+  /* line 916, ../scss/_custom.scss */
   main .thirdPage {
     background-color: #333333;
   }
-  /* line 923, ../scss/_custom.scss */
+  /* line 920, ../scss/_custom.scss */
   main .thirdPage h2 {
     color: #ff5722;
   }
-  /* line 928, ../scss/_custom.scss */
+  /* line 925, ../scss/_custom.scss */
   main .thirdPage p {
     color: white;
   }
-  /* line 934, ../scss/_custom.scss */
+  /* line 931, ../scss/_custom.scss */
   main .fithPage {
     background-color: #333333;
   }
-  /* line 937, ../scss/_custom.scss */
+  /* line 934, ../scss/_custom.scss */
   main .fithPage p {
     color: white;
   }
-  /* line 943, ../scss/_custom.scss */
+  /* line 940, ../scss/_custom.scss */
   main .eighthPage {
     padding-top: 8vw;
     padding-bottom: 8vw;
     background-color: #ff5722;
   }
-  /* line 949, ../scss/_custom.scss */
+  /* line 946, ../scss/_custom.scss */
   main .eighthPage h2 {
     color: white;
     padding-bottom: 4vw;
   }
-  /* line 955, ../scss/_custom.scss */
+  /* line 952, ../scss/_custom.scss */
   main .eighthPage p {
     color: white;
   }
