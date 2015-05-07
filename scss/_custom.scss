@@ -9,6 +9,12 @@ $jetti-light-grey: #666;
 $jetti-lighter-grey: #ccc;
 $jetti-lightest-grey: #eee;
 
+.contact-form
+{
+	background-color: $jetti-orange;
+	height: 100vh;
+}
+
 .blog
 {
 	.blog-nav
@@ -186,7 +192,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, span
 	font-family: $jetti-font-other;
 }
 
-/*
+
 header.contain-to-grid
 {
 	background: $jetti-orange;
@@ -212,7 +218,7 @@ header.contain-to-grid
 		font-family: $jetti-font-main;
 	}
 }
-*/
+
 
 /* buttons */
 button
