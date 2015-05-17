@@ -9,6 +9,47 @@ $jetti-light-grey: #666;
 $jetti-lighter-grey: #ccc;
 $jetti-lightest-grey: #eee;
 
+.related
+{
+
+	margin-bottom: 3em;
+
+	h5
+	{
+		color: $jetti-white;
+		font-weight: 900;
+		line-height: 1em;
+	}
+
+	a
+	{
+		display: block;
+	}
+
+	li
+	{
+		background: $jetti-dark-grey;
+		border: 1px solid $jetti-white;
+		padding: .5em 1em;
+		min-height: 8em;
+	}
+}
+
+.global-nav
+{
+	background: $jetti-orange;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+	a
+	{
+		color: $jetti-white;
+		font-weight: 900;
+		text-transform: uppercase;
+		padding-left: 16px;
+	}
+}
+
 .contact-form
 {
 	background-color: $jetti-orange;
@@ -44,9 +85,7 @@ $jetti-lightest-grey: #eee;
 	{
 		display: inline-block;
 		position: fixed;
-		border: 1px solid #ccc;	
 		background-color: white;
-		
 	}
 
 	.aside-call-to-action
@@ -54,7 +93,6 @@ $jetti-lightest-grey: #eee;
 		top: 6.25rem;
 		width: 12em;
 		right: 2em;
-		padding: 1em;
 	}
 
 	.aside-social
@@ -77,7 +115,6 @@ $jetti-lightest-grey: #eee;
 	{
 		width: 6em;
 		height: 6em;
-		border: 1px solid red;
 		display: block;
 		margin: 1em 0;
 	}
@@ -479,10 +516,7 @@ main
 	aside
 	{
 		display: inline-block;
-		position: fixed;
-		border: 1px solid #ccc;	
-		background-color: white;
-		
+		position: fixed;		
 	}
 
 	.aside-call-to-action
@@ -490,7 +524,6 @@ main
 		top: 6.25rem;
 		width: 12em;
 		right: 2em;
-		padding: 1em;
 	}
 
 	.aside-social
@@ -511,11 +544,10 @@ main
 
 	.aside-social-link
 	{
-		width: 6em;
-		height: 6em;
-		border: 1px solid red;
+		width: 3em;
+		height: 3em;
 		display: block;
-		margin: 1em 0;
+		margin: 1em 0 1em 1.5em;
 	}
 
 	.blog-title
