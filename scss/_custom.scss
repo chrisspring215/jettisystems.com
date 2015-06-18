@@ -44,7 +44,7 @@ $jetti-lightest-grey: #eee;
 	a
 	{
 		color: $jetti-white;
-		font-weight: 900;
+		font-weight: 300;
 		text-transform: uppercase;
 		padding-left: 16px;
 	}
@@ -309,12 +309,12 @@ svg
 	
 
 	height: 100vh;
-	padding-top: 20vh;
+	padding-top: 5em;
 
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
-		font-size: 7em;
+		font-size: 5em;
 		color: $jetti-orange;
 		text-shadow: 2px 2px 0 $jetti-white,
 
@@ -338,7 +338,7 @@ svg
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 2em;
+		font-size: 1.5em;
 		line-height: 1em;
 		padding-top: 1em;
 	}
@@ -346,14 +346,14 @@ svg
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 1em;
-		line-height: 1.3em;
+		font-size: 1.15em;
+		line-height: 1.2em;
 	}
 
 	.advance
 	{
 		display: block;
-		margin-top: 1.5em;
+		margin-top: 1em;
 	}
 
 	
@@ -374,7 +374,6 @@ main
 
 		h1
 		{
-			font-size: 7vw;
 			line-height: 9vw;
 			font-weight: 300;
 			color: $jetti-orange;
@@ -383,30 +382,29 @@ main
 
 		h2
 		{
-			font-size: 6vw;
-			line-height: 6.5vw;
+			font-size: 1.25em;
+			line-height: 1.3em;
 			font-weight: 600;
-			font-style: italic;
 			color: $jetti-orange;
-			padding-bottom: 3vw;
+			padding-bottom: .5em;
 		}
 
 		h3
 		{
-			font-size: 5vw;
-			line-height: 6vw;
+			font-size: 1.5em;
+			line-height: 1em;
 			font-weight: 500;
 			font-style: italic;
 			color: $jetti-font-other - 200;
-			padding-bottom: 0vw;
-			margin-bottom: 0;
+
+			margin-bottom: .25em;
 		}
 
 		p
 		{
 
-			font-size: 5vw;
-			line-height: 6vw;
+			font-size: 1.15em;
+			line-height: 1.3em;
 			font-weight: 300;
 			display: inline-block;
 			color: $jetti-light-grey;
@@ -427,7 +425,13 @@ main
 
 		.bulletPoint
 		{
-			padding-top: 2vh;
+			padding-top: .75em;
+
+			img
+			{
+				padding-bottom: .75em;
+			}
+			
 		}
 
 		h2
@@ -477,10 +481,21 @@ main
 	{
 		padding-top: 8vw;
 		padding-bottom: 8vw;
-		background-color: $jetti-dark-grey;
-		p
+		background-color: $jetti-white;
+
+		.small-8 h2
+		{
+			color: $jetti-dark-grey;	
+		}
+		
+		.button
 		{
 			color: $jetti-white;
+		}
+
+		a
+		{
+			color: $jetti-dark-grey;
 		}
 	}
 }
@@ -628,7 +643,7 @@ button
 	.small-main-logo
 	{
 		font-family: $jetti-font-main;
-		font-size: 10em;
+		font-size: 8em;
 	}
 
 	.tag-line, .secondary-tag-line
@@ -640,13 +655,13 @@ button
 	.tag-line
 	{
 		font-weight: 400;
-		font-size: 3.5em;
+		font-size: 2em;
 	}
 
 	.secondary-tag-line
 	{
 		font-weight: 300;
-		font-size: 1.75em;
+		font-size: 1.5em;
 		line-height: 1.2em;
 		margin-bottom: 2em;
 	}
@@ -664,8 +679,8 @@ main
 	{
 
 		padding: 0;
-		padding-top: 4vw;
-		padding-bottom: 6vw;
+		padding-top: 1em;
+		padding-bottom: 2.5em;
 
 		.icon-image
 		{
@@ -674,29 +689,29 @@ main
 
 		h2
 		{
-			font-size: 5vw;
-			line-height: 5.5vw;
+			font-size: 2.5em;
+			line-height: 1.1em;
 			font-weight: 600;
 			font-style: italic;
 			color: $jetti-orange;
-			padding-bottom: 1vw;
+			padding-bottom: 0em;
 		}
 
 		h3
 		{
-			font-size: 4vw;
-			line-height: 5vw;
+			font-size: 1.75em;
+			line-height: 1em;
 			font-weight: 500;
 			font-style: italic;
 			color: $jetti-font-other - 200;
-			padding-bottom: 0vw;
+			padding-bottom: .25em;
 			margin-bottom: 0;
 		}
 
 		p
 		{
-			font-size: 4vw;
-			line-height: 5vw;
+			font-size: 1.25em;
+			line-height: 1.3em;
 			font-weight: 300;
 			display: inline-block;
 			color: $jetti-light-grey;
@@ -762,22 +777,12 @@ main
 	{
 		padding-top: 8vw;
 		padding-bottom: 8vw;
-		background-color: $jetti-orange;
 
 		h2
 		{
-			color: $jetti-white;
 			padding-bottom: 4vw
 		}
 
-		p
-		{
-			color: $jetti-white;
-		}
-
-		button
-		{
-		}
 	}
 }
 } /* min-width 641px, medium screens */
@@ -890,8 +895,8 @@ main
 
 		h2
 		{
-			font-size: 3vw;
-			line-height: 3vw;
+			font-size: 3em;
+			line-height: 1.1em;
 			font-weight: 600;
 			font-style: italic;
 			color: $jetti-orange;
@@ -900,8 +905,8 @@ main
 
 		h3
 		{
-			font-size: 2.25vw;
-			line-height: 2.75vw;
+			font-size: 2.25em;
+			line-height: 1.25em;
 			font-weight: 500;
 			font-style: italic;
 			color: $jetti-font-other - 200;
@@ -911,8 +916,8 @@ main
 
 		p
 		{
-			font-size: 2.25vw;
-			line-height: 2.75vw;
+			font-size: 1.75em;
+			line-height: 1.1em;
 			font-weight: 300;
 			display: inline-block;
 			color: $jetti-light-grey;
@@ -978,21 +983,10 @@ main
 	{
 		padding-top: 8vw;
 		padding-bottom: 8vw;
-		background-color: $jetti-orange;
 
 		h2
 		{
-			color: $jetti-white;
 			padding-bottom: 4vw
-		}
-
-		p
-		{
-			color: $jetti-white;
-		}
-
-		button
-		{
 		}
 	}
 }
