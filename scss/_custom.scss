@@ -44,9 +44,18 @@ $jetti-lightest-grey: #eee;
 	a
 	{
 		color: $jetti-white;
-		font-weight: 300;
+		font-weight: 700;
 		text-transform: uppercase;
 		padding-left: 16px;
+		font-size: 0.8125rem;
+	}
+
+	.header-logo
+	{
+		font-family: $jetti-font-main;
+		text-transform: none;
+		font-weight: 300;
+		font-size: 1em;
 	}
 }
 
@@ -316,12 +325,14 @@ svg
 		font-family: $jetti-font-main;
 		font-size: 5em;
 		color: $jetti-orange;
+
 		text-shadow: 2px 2px 0 $jetti-white,
 
 		-1px -1px 0 #fff,  
 	    1px -1px 0 #fff,
 	   -1px  1px 0 #fff,
 	    1px  1px 0 #fff;
+
 
 	    line-height: .25em;
 	   
