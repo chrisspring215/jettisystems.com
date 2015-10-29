@@ -1,0 +1,1008 @@
+
+$jetti-orange: #FF5722;
+$jetti-orange-darker: #E64A19;
+
+$jetti-white: #fff;
+$jetti-black: #222;
+$jetti-dark-grey: #333;
+$jetti-light-grey: #666;
+$jetti-lighter-grey: #ccc;
+$jetti-lightest-grey: #eee;
+
+.related
+{
+
+	margin-bottom: 3em;
+
+	h5
+	{
+		color: $jetti-white;
+		font-weight: 900;
+		line-height: 1em;
+	}
+
+	a
+	{
+		display: block;
+	}
+
+	li
+	{
+		background: $jetti-dark-grey;
+		border: 1px solid $jetti-white;
+		padding: .5em 1em;
+		min-height: 8em;
+	}
+}
+
+.global-nav
+{
+	background: $jetti-orange;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+	a
+	{
+		color: $jetti-white;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding-left: 16px;
+		font-size: 0.8125rem;
+	}
+
+	.header-logo
+	{
+		font-family: $jetti-font-main;
+		text-transform: none;
+		font-weight: 300;
+		font-size: 1em;
+	}
+}
+
+.contact-form
+{
+	background-color: $jetti-orange;
+	height: 100vh;
+}
+
+.blog
+{
+	.blog-nav
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+	.date-nav
+	{
+		margin-top:2em;
+	}
+
+	.blog-logo a
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+	}
+
+	.date
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-light-grey;
+	}
+
+	aside
+	{
+		display: inline-block;
+		position: fixed;
+		background-color: white;
+	}
+
+	.aside-call-to-action
+	{
+		top: 6.25rem;
+		width: 12em;
+		right: 2em;
+	}
+
+	.aside-social
+	{
+		top: 26.25rem;
+		width: 8em;
+		right: 4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.aside-social-title
+	{
+		margin-top: .5em;
+		margin-bottom: -.5em;
+		font-weight: 900;
+	}
+
+	.aside-social-link
+	{
+		width: 6em;
+		height: 6em;
+		display: block;
+		margin: 1em 0;
+	}
+
+	.blog-title
+	{
+		font-weight: bold;
+		font-size: 2em;
+		line-height: 1em;
+		margin-bottom: 0em;
+		padding-bottom: 0;
+	}
+
+	.blog-sub-title
+	{
+		font-size: 1.25em;
+		margin-bottom: 0em;
+		font-weight: 300;
+	}
+
+	.byline
+	{
+		font-size: 1em;
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.blog-section-title
+	{
+		font-weight: 700;
+		color: #333;
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+	}
+
+	figcaption
+	{
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+
+	blockquote
+	{
+
+		font-size: 1.75em;
+		font-family: $jetti-font-main;
+		color: $jetti-orange;
+	}
+
+	.panel.callout
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+}
+
+.contact-form
+{
+	
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+
+	.form-title
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+		font-size: 24vw;
+	}
+
+	h3
+	{
+		color: $jetti-white;
+		font-size: 6vw;
+		line-height: 6.5vw;
+	}
+	label
+	{
+		color: $jetti-white;
+		font-weight: bold;
+	}
+
+	a
+	{
+		color: $jetti-white;
+	}
+
+	textarea
+	{
+		color: #333;
+	}
+
+	p
+	{
+		color: $jetti-white;
+		font-size: 6vw;
+		line-height: 7.5vw
+	}
+}
+
+.form-body
+{
+	height: 100vh;
+	background: $jetti-orange;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, span
+{
+	font-family: $jetti-font-other;
+}
+
+
+header.contain-to-grid
+{
+	background: $jetti-orange;
+
+
+	.top-bar
+	{
+		background-color: $jetti-orange;
+	}
+
+	.top-bar-section li
+	{
+		background: $jetti-orange;
+
+		&:hover
+		{
+			background: $jetti-orange-darker;
+		}
+	}
+
+	.jetti-logo-main
+	{
+		font-family: $jetti-font-main;
+	}
+}
+
+
+/* buttons */
+button
+{
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 5vw;
+}
+
+/* SVG */
+
+svg
+{
+	transition: padding-top 0.25s ease;
+	padding-top: 0em;
+
+	.polygon-1
+	{
+		fill: $jetti-orange + 175;
+	}
+	.polygon-2
+	{
+		fill: $jetti-orange - 25;
+	}
+	.polygon-3
+	{
+		fill: $jetti-orange - 45;
+	}
+
+	&:hover
+	{	
+		transition: padding-top 0.5s ease;
+		padding-top: .2em;
+	}
+
+}
+
+
+.full-page-header
+{
+	background: url(../img/background2.jpg) no-repeat center center fixed; 
+	background-color: $jetti-orange;
+	/*
+	background-blend-mode: soft-light;
+	*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+
+	height: 100vh;
+	padding-top: 5em;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 5em;
+		color: $jetti-orange;
+
+		text-shadow: 2px 2px 0 $jetti-white,
+
+		-1px -1px 0 #fff,  
+	    1px -1px 0 #fff,
+	   -1px  1px 0 #fff,
+	    1px  1px 0 #fff;
+
+
+	    line-height: .25em;
+	   
+	  
+	}
+
+	.tag-line, .secondary-tag-line
+	{
+		
+		color: $jetti-white;
+		display: block;
+	}
+
+	.tag-line
+	{
+		font-weight: 400;
+		font-size: 1.5em;
+		line-height: 1em;
+		padding-top: 1em;
+	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 1.15em;
+		line-height: 1.2em;
+	}
+
+	.advance
+	{
+		display: block;
+		margin-top: 1em;
+	}
+
+	
+}
+
+main
+{
+	.pages
+	{
+
+		padding: 0;
+		padding-bottom: 4vw;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
+
+		h1
+		{
+			line-height: 9vw;
+			font-weight: 300;
+			color: $jetti-orange;
+			font-style: italic;
+		}
+
+		h2
+		{
+			font-size: 1.25em;
+			line-height: 1.3em;
+			font-weight: 600;
+			color: $jetti-orange;
+			padding-bottom: .5em;
+		}
+
+		h3
+		{
+			font-size: 1.5em;
+			line-height: 1em;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+
+			margin-bottom: .25em;
+		}
+
+		p
+		{
+
+			font-size: 1.15em;
+			line-height: 1.3em;
+			font-weight: 300;
+			display: inline-block;
+			color: $jetti-light-grey;
+		}
+
+		.accent
+		{
+			font-weight: 900;
+			font-style: italic;
+			color: $jetti-orange;
+		}
+	}
+
+
+	.secondpage
+	{
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: .75em;
+
+			img
+			{
+				padding-bottom: .75em;
+			}
+			
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.image-page
+	{
+		background-color: $jetti-orange;
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+		background-color: $jetti-white;
+
+		.small-8 h2
+		{
+			color: $jetti-dark-grey;	
+		}
+		
+		.button
+		{
+			color: $jetti-white;
+		}
+
+		a
+		{
+			color: $jetti-dark-grey;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 40.063em) {
+
+.blog
+{
+	.blog-nav
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+	.date-nav
+	{
+		margin-top:2em;
+	}
+
+	.blog-logo a
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+	}
+
+	.date
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-light-grey;
+	}
+
+	aside
+	{
+		display: inline-block;
+		position: fixed;		
+	}
+
+	.aside-call-to-action
+	{
+		top: 6.25rem;
+		width: 12em;
+		right: 2em;
+	}
+
+	.aside-social
+	{
+		top: 26.25rem;
+		width: 8em;
+		right: 4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.aside-social-title
+	{
+		margin-top: .5em;
+		margin-bottom: -.5em;
+		font-weight: 900;
+	}
+
+	.aside-social-link
+	{
+		width: 3em;
+		height: 3em;
+		display: block;
+		margin: 1em 0 1em 1.5em;
+	}
+
+	.blog-title
+	{
+		font-weight: bold;
+		font-size: 4em;
+		line-height: 1em;
+		margin-bottom: 0em;
+		padding-bottom: 0;
+	}
+
+	.blog-sub-title
+	{
+		font-size: 2em;
+		margin-bottom: 0em;
+		font-weight: 300;
+	}
+
+	.byline
+	{
+		font-size: 1em;
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.blog-section-title
+	{
+		font-weight: 700;
+		color: #333;
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+	}
+
+	figcaption
+	{
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+
+	blockquote
+	{
+
+		font-size: 1.75em;
+		font-family: $jetti-font-main;
+		color: $jetti-orange;
+	}
+
+	.panel.callout
+	{
+		background-color: $jetti-orange;
+		color: $jetti-white;
+	}
+
+}
+
+button
+{
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 3vw;
+}
+
+.full-page-header
+{
+
+	background: url(../img/background1.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	padding-top: 10em;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 8em;
+	}
+
+	.tag-line, .secondary-tag-line
+	{	
+		color: $jetti-white;
+		display: block;
+	}
+
+	.tag-line
+	{
+		font-weight: 400;
+		font-size: 2em;
+	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 1.5em;
+		line-height: 1.2em;
+		margin-bottom: 2em;
+	}
+
+	.advance
+	{
+		display: block;
+		margin-top: 2em;
+	}
+}
+
+main
+{
+	.pages
+	{
+
+		padding: 0;
+		padding-top: 1em;
+		padding-bottom: 2.5em;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
+
+		h2
+		{
+			font-size: 2.5em;
+			line-height: 1.1em;
+			font-weight: 600;
+			font-style: italic;
+			color: $jetti-orange;
+			padding-bottom: 0em;
+		}
+
+		h3
+		{
+			font-size: 1.75em;
+			line-height: 1em;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+			padding-bottom: .25em;
+			margin-bottom: 0;
+		}
+
+		p
+		{
+			font-size: 1.25em;
+			line-height: 1.3em;
+			font-weight: 300;
+			display: inline-block;
+			color: $jetti-light-grey;
+		}
+
+		.accent
+		{
+			font-weight: 900;
+			font-style: italic;
+			color: $jetti-orange;
+		}
+	}
+
+
+	.secondpage
+	{
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: 2vh;
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+
+		h2
+		{
+			padding-bottom: 4vw
+		}
+
+	}
+}
+} /* min-width 641px, medium screens */
+
+
+
+@media only screen and (min-width: 64.063em) {
+
+.contact-form
+{
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+
+	.form-title
+	{
+		font-family: $jetti-font-main;
+		color: $jetti-white;
+		font-size: 8em;
+	}
+
+	h3
+	{
+		color: $jetti-white;
+		font-size: 2em;
+		line-height: 1.3em
+	}
+	label
+	{
+		color: $jetti-white;
+		font-weight: bold;
+	}
+
+	a
+	{
+		color: $jetti-white;
+	}
+
+	textarea
+	{
+		color: #333;
+	}
+
+	p
+	{
+		color: $jetti-white;
+		font-size: 3vw;
+	}
+}
+
+button
+{
+	color: $jetti-white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1vw;
+}
+
+.full-page-header
+{
+
+	height: 100vh;
+	padding-top: 25vh;
+
+	.small-main-logo
+	{
+		font-family: $jetti-font-main;
+		font-size: 10em;
+	}
+
+	.tag-line, .secondary-tag-line
+	{	
+		color: $jetti-white;
+		display: block;
+	}
+
+	.tag-line
+	{
+		font-weight: 400;
+		font-size: 3.5em;
+		padding-top: .5em;
+	}
+
+	.secondary-tag-line
+	{
+		font-weight: 300;
+		font-size: 1.75em;
+		line-height: 1.2em;
+		margin-bottom: 1em;
+	}
+
+	.advance
+	{
+		display: block;
+	}
+}
+
+main
+{
+	.pages
+	{
+
+		padding: 0;
+		padding-top: 4vw;
+		padding-bottom: 6vw;
+
+		.icon-image
+		{
+			margin-bottom: 2vh;
+		}
+
+		h2
+		{
+			font-size: 3em;
+			line-height: 1.1em;
+			font-weight: 600;
+			font-style: italic;
+			color: $jetti-orange;
+			padding-bottom: 1vw;
+		}
+
+		h3
+		{
+			font-size: 2.25em;
+			line-height: 1.25em;
+			font-weight: 500;
+			font-style: italic;
+			color: $jetti-font-other - 200;
+			padding-bottom: 0vw;
+			margin-bottom: 0;
+		}
+
+		p
+		{
+			font-size: 1.75em;
+			line-height: 1.1em;
+			font-weight: 300;
+			display: inline-block;
+			color: $jetti-light-grey;
+		}
+
+		.accent
+		{
+			font-weight: 900;
+			font-style: italic;
+			color: $jetti-orange;
+		}
+	}
+
+
+	.secondpage
+	{
+		background-color: $jetti-white;
+
+		.bulletPoint
+		{
+			padding-top: 2vh;
+		}
+
+		h2
+		{
+			color:$jetti-orange;
+		}
+		h3
+		{
+			color: $jetti-dark-grey;
+		}
+		p
+		{
+			color:$jetti-light-grey;
+		}
+	}
+
+	.thirdPage
+	{
+		background-color: $jetti-dark-grey;
+
+		h2
+		{
+			color: $jetti-orange;
+		}
+
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.fithPage
+	{
+		background-color: $jetti-dark-grey;
+		p
+		{
+			color: $jetti-white;
+		}
+	}
+
+	.eighthPage
+	{
+		padding-top: 8vw;
+		padding-bottom: 8vw;
+
+		h2
+		{
+			padding-bottom: 4vw
+		}
+	}
+}
+
+}
+
+
+/* min-width 1025px, large screens */

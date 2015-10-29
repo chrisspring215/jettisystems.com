@@ -21,40 +21,21 @@
     <!-- G+ publisher -->
     <link rel="publisher" href="https://plus.google.com/b/101207213899184870063">
 
-
-    <!-- SMOOTH SCROLL -->
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-      </script>
-      <!-- End of SMOOTH SCROLL -->
-
   </head>
   <body>
- <!--
-    <header class="fixed contain-to-grid">
+    <header>
+
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <span><a class="jetti-logo-main" href="#">Jetti</a></span>
+            <h1><a href="#">My Site</a></h1>
           </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
-        <section class="top-bar-section">
 
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
           <ul class="right">
             <li class="active"><a href="#">Right Button Active</a></li>
             <li class="has-dropdown">
@@ -65,189 +46,112 @@
               </ul>
             </li>
           </ul>
-
-          <ul class="left">
-            <li><a href="#">Left Nav Button</a></li>
-          </ul>
         </section>
       </nav> 
+
     </header>
-  -->   
-
-    <div class="global-nav">
-      <div class="row">
-        <div class="small-12 columns text-right">
-          <a href="" class="left header-logo">Jetti</a>
-          <a href="https://jetti.rerunapp.com/checkout">SIGN UP</a>
-          <a href="http://www.jettiup.com/admin">DASHBOARD</a>
-          <a href="https://jetti.rerunapp.com/myaccount">BILLING</a>
-          <a href="contact.html">CONTACT US</a>
-          <!--<a href="articles/blog.html">NEWS</a>-->
-        </div>
-      </div>
-    </div>
-
-    <div class="full-page-header">
-      
-      <div class="row">
-        <div class="small-12 medium-10 medium-centered columns text-center">
-          <span class=" small-main-logo">Jetti</span>
-          <br>
-          <!--
-          <span class="tag-line">Do you think your restaurant can make more money?</span>
-          <span class="tag-line">Set your restaurant's upselling efforts on autopilot.</span>
-          <span class="tag-line">Bigger profits.<br>Loyal customers.<br>Win, win.</span>
-          <span class="tag-line">Build loyal customers,<br>Upsell Automatically,<br>Make more profits.</span>
-          
-          <span class="tag-line">Could your restaurant make more money by increased upselling?</span>
-          -->
-          
-          <p class="tag-line">The premier customer engagement tool for restaurants</p>
-          <h1 class="secondary-tag-line">Your restaurant can reach hundreds of customers and sell more high-value menu items every single day without lifting a finger.</h1>
-          <a class="button" href="contact.html">TRY IT FOR FREE</a>
-
-          <!-- 
-          <span class="advance advance-arrow">We'll show you how.</span>
-         -->
-         <span class="advance advance-arrow">&nbsp;
-          <a href="#secondPage">
-          <svg width="40" height="40">
-            <polygon class="polygon-1" points="0,0 20,10 40,0" stroke-width="1"   stroke="rgba(250, 250, 250, .25)"/>
-            <polygon class="polygon-2" points="0,0 20,30 20,10" stroke-width="1"  stroke="rgba(250, 250, 250, .25)"/>
-            <polygon class="polygon-3" points="40,0 20,30 20,10" stroke-width="1" stroke="rgba(250, 250, 250, .25)"/>
-          </svg></a></span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="medium-12 hide-for-small columns text-right">
-          <a href="https://www.facebook.com/jettirewards"><img src="img/social-jetti-restaurant-rewards-facebook.png" alt="jetti restaurant rewards facebook icon" title="jetti restaurant rewards facebook icon"></a>
-          <a href="https://twitter.com/JettiSystems"><img src="img/social-jetti-restaurant-rewards-twitter.png" alt="jetti restaurant rewards twitter icon" title="jetti restaurant rewards facebook icon"></a>
-          <a href="https://plus.google.com/b/101207213899184870063/101207213899184870063/about"><img src="img/social-jetti-restaurant-rewards-googleplus.png" alt="jetti restaurant rewards google plus icon" title="jetti restaurant rewards facebook icon"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-12 hide-for-medium-up columns text-right">
-          <a href="https://www.facebook.com/jettirewards"><img width="10%" src="img/social-jetti-restaurant-rewards-facebook.png" alt="jetti restaurant rewards facebook icon" title="jetti restaurant rewards facebook icon"></a>
-          <a href="https://twitter.com/JettiSystems"><img width="10%" src="img/social-jetti-restaurant-rewards-twitter.png" alt="jetti restaurant rewards twitter icon" title="jetti restaurant rewards facebook icon"></a>
-          <a href="https://plus.google.com/b/101207213899184870063/101207213899184870063/about"><img width="10%" src="img/social-jetti-restaurant-rewards-googleplus.png" alt="jetti restaurant rewards google plus icon" title="jetti restaurant rewards facebook icon"></a>
-        </div>
-      </div>
-    </div>
-
     <main>
 
-      <div name="secondPage" class="secondpage">&nbsp;
-        <div class="pages secondpage">
-          <div class="row">
-            <div class="small-12 columns text-center">
-            <!--        
-              <h1>With Jetti, your loyal customers will buy more of your higest-profit items.</span></h1>
-            -->
-              <h2>Jetti does everything your restaurant needs to stay at the forefront of customer engagement. It’s effective, affordable and simple to use.</h2>
-            </div>
-            <div class="small-12 columns">
-
-              <div class="row bulletPoint">
-
-                <div class="small-8 small-centered medium-uncentered medium-4 large-3 columns text-center">
-                  <img src="img/restaurant-upselling-2.png" alt="Customers using Jetti in a restaurant." title="Jetti is a customer engagement tool for restaurants"> 
-                </div>
-                <div class="small-12 medium-8 large-9 columns">
-                  <h3>Rapidly build a customer database</h3>
-                  <p>Jetti builds you a large database of your best customers by connecting with them at-the-table. You’ll stay at the front of their minds by pushing notifications right to their smartphones.</p>
-                </div>
-              </div>
-
-              <div class="row bulletPoint">
-                <div class="small-8 small-centered medium-uncentered medium-4 large-3 columns text-center">
-                  <img src="img/restaurant-upselling-1.png" alt="Restaurant rewards for customers" title="Rewards for customer loyalty">
-                </div>
-                <div class="small-12 medium-8 large-9 columns">
-                  <h3>Promote your most lucrative menu items</h3>
-                  <p>Jetti lifts sales of the menu items you really want to sell by creating an instant incentive for guests to buy them. You’ll keep guests coming back to earn enticing rewards.</p>
-                </div>
-              </div>
-              <div class="row bulletPoint">
-                <div class="small-8 small-centered medium-uncentered medium-4 large-3 columns text-center">
-                  <img src="img/restaurant-upselling-3.png" alt="Restaurant rewards programs on smartphones" title="Smartphone based restaurant rewards program">
-                </div>
-                <div class="small-12 medium-8 large-9 columns">
-                  <h3>Engage new customers on social media</h3>
-                  <p>Jetti helps you reach thousands of potential patrons through your customers’ social networks. Their friends will be automatically invited to join your restaurant’s loyalty program.</p>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <h1>There is no substitute for great food and exceptional service, but customer engagement can give you the edge over your competitors.</h1>
+          <a href=""><button class="button expand">LEARN HOW</button></a>
         </div>
       </div>
 
-      <div name="thirdPage" class="thirdPage">&nbsp;
-        <div class="pages thirdPage">
-          <div class="row">
-            <div class="small-12 columns text-center">
-              <h2>How it works</h2>
-              <p class="text-center">Jetti is a smartphone-based loyalty tool that engages your guests at the table. They sign up to earn points for coming in and bonus points for ordering the menu items you want to promote. You offer them rewards to show your appreciation and build a valuable, loyal relationship.</p>
-              <p><strong>To find out more, contact us at <a style="color: #ff5722" href="mailto:sales@jettisystems.com">sales@jettisystems.com</a></strong></p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <hr>
         </div>
       </div>
 
-      <div class="image-page">
-        <div class="row">
-
-          <img class="hide-for-small" src="img/restaurant-customer-engagement-jetti.png" alt="Jetti, a customer engagement tool for restaurants" title="Jetti, a customer engagement tool for restaurants">
-          <img class="hide-for-medium-up" src="img/restaurant-customer-engagement-jetti-mobile.png" alt="Jetti, a customer engagement tool for restaurants" title="Jetti, a customer engagement tool for restaurants">
+      <div class="row">
+        <div class="small-12 columns">
+          <h2>Jetti gives franchises and successful restaurants the edge over the competition. Every restaurant that integrates Jetti sees positive results and so will you. Here's how:</h2>
         </div>
       </div>
 
-      <!--
-      <div name="forthPage" class="forthPage">&nbsp;
-        <div class="pages">
-          <div class="row">
-            <div class="small-12 columns text-center">
-              <h2>Maximize your restaurant’s profitability</h2>
-              <p class="text-center">Jetti not only <strong>increases customer visits and spending</strong>, it uses <strong>automated upselling</strong> to get at the heart of where your money is made: <strong><u>Greater sales at higher margins</u></strong>.</p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <hr>
         </div>
       </div>
 
-      <div name="fithPage" class="fithPage">&nbsp;
-        <div class="pages">
-          <div class="row">
-            <div class="small-12 columns text-center">
-              <h2>Stimulate sales by targeting loyalty</h2>
-              <p class="text-center">Your <strong>loyal regulars are your best customers</strong>. Jetti lets you track their spending and target them with special incentives- a key to building customer advocacy.</p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <h2>BE MORE VISIBLE</h2>
+          <h3>Americans dine out 5x per week. Where they decide to go matters.</h3>
+          <p>The more people see you, the more often they come through your door. Jetti creates visibility where your customers now spend almost 3 hours per day- on their phones.</p>
+          <h4>CUSTOMER REWARDS + MOBILE MARKETING + UPSELLING</h4>
+          <h5>Jetti is the top-line program for highly competitive restaurants.</h5>
+          <ul>
+            <li>Connect with customers to be more visible than your competitors</li>
+            <li>Thank your best customers for being loyal</li>
+            <li>Reach out to customers who haven’t been back in awhile</li>
+            <li>Promote special events and new menu offerings</li>
+            <li>Encourage customers to follow you on social media</li>
+          </ul>
+          <blockquote>
+            <p>86% of marketers report mobile loyalty campaigns as being effective or very effective.</p>
+            <footer>Salesforce - 2015 State of Marketing</footer></blockquote>
         </div>
       </div>
 
-      <div name="seventhPage" class="seventhPage">&nbsp;
-        <div class="pages">
-          <div class="row">
-            <div class="small-12 columns text-center">
-              <h2>Get your customers to refer their friends</h2>
-              <p class="text-center">Jetti allows your best customers to <strong>invite their friends</strong> to join your loyalty program via Facebook and Twitter. There’s no easier way to <strong>grow your ranks of loyal regulars</strong>.</p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <hr>
         </div>
       </div>
-      -->
 
-      <div name="eighthPage" class="eighthPage">&nbsp;
-        <div class="pages">
-          <div class="row">
-            <div class="small-12 medium-8 columns text-center small-centered">
-              <h2>Don’t believe it? Test drive Jetti for free today.</h2>
-              <a class="button" href="contact.html">TRY IT FOR FREE</a>
-            </div>
-            <div class="small-8 columns text-center small-centered" style=" padding-top: 83px">
-              <a href="jettitermsofservice.html">Terms of Service</a>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <h2>REWARD THEIR DECISION</h2>
+          <h3>Your customers have 4-5 “favorite” places. Stand out from the pack.</h3>
+          <p>Your customers have many dining choices. When competing options exists, research shows that people more often go where they feel the most rewarded.</p>
+          <h4>STRENGTHEN YOUR PULL WITH EFFECTIVE REWARDS</h4>
+          <h5>Jetti is modeled after the world’s most successful rewards platforms.</h5>
+          <ul>
+            <li>Effectively reach hundreds of customers at-the-table</li>
+            <li>Reinforce the choice of your brand with meaningful rewards</li>
+            <li>Build a useful customer database that works for you</li>
+            <li>Give customers a new reason to return and spend more</li>
+            <li>Stay fresh on people’s minds using email notifications</li>
+          </ul>
+          <blockquote>
+            <p>86% of core users will join their favored restaurant’s program and use it more than any other.</p>
+            <footer>Deloitte Consulting LLP - Building consumer loyalty in the fast service and casual dining restaurant sector</footer>
+          </blockquote>
         </div>
       </div>
+
+      <div class="row">
+        <div class="small-12 columns">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 columns">
+          <h2>DRIVE YOUR UPSELLING</h2>
+          <h3>You serve hundreds of people per day. What they decide to order matters.</h3>
+          <p>Most customers want to order items, like delicious appetizers, but only a small fraction ever do. Jetti gives your customers an added incentive to upsize their orders.</p>
+          <h4>LIFT YOUR TICKET AVERAGE &amp; WIDEN YOUR MARGINS PER SALE</h4>
+          <h5>A consistent bump in ticket sizes can bouey your balance sheet.</h5>
+          <ul>
+            <li>Boost your existing upselling strategy</li>
+            <li>Augment your menu engineering</li>
+            <li>Sell more appetizers and desserts</li>
+            <li>Push your big-ticket entrees</li>
+            <li>Promote your highest-profit items</li>
+          </ul>
+          <blockquote>
+            <p>36% of Jetti customer Check-Ins result in an upsell.*
+            <footer>*Reported as an average. Individual results may vary</footer>
+          </blockquote>
+        </div>
+      </div>
+
+
 
 
     </main>
@@ -259,17 +163,17 @@
       $(document).foundation();
     </script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-53107264-1', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-64533681-1', 'auto');
+      ga('send', 'pageview');
 
-</script>
-<script type="text/javascript">
-setTimeout(function(){_gaq.push(['_trackEvent', 'Control', 'Bounce Rate', ''])},10000)
-</script>
+    </script>
+    <script type="text/javascript">
+    setTimeout(function(){_gaq.push(['_trackEvent', 'Control', 'Bounce Rate', ''])},10000)
+    </script>
   </body>
 </html>
